@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pika
+import logging
 
 # Настройки подключения к RabbitMQ
 credentials = pika.PlainCredentials('guest', 'guest')
@@ -14,11 +15,23 @@ channel.queue_declare(queue='results')
 
 url = "https://tproger.ru/"
 
+# Настройки логирования
+logging.basicConfig(filename='logs.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+console_handler.setFormatter(formatter)
+
+logger = logging.getLogger()
+logger.addHandler(console_handler)
+
 try:
     response = requests.get(url)
     response.raise_for_status()
 except requests.exceptions.RequestException as e:
-    print("Произошла сетевая ошибка:", str(e))
+    logger.error("Произошла сетевая ошибка: %s", str(e))
     exit(1)
 
 soup = BeautifulSoup(response.text, "html.parser")
@@ -36,7 +49,6 @@ for link in links:
     channel.basic_publish(exchange='',
                           routing_key='tasks',
                           body=link)
-    print("Ссылка отправлена в очередь:", link)
-
+    logger.info("Ссылка отправлена в очередь: %s", link)
 
 connection.close()

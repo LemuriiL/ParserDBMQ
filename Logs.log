@@ -1,0 +1,1499 @@
+2023-06-13 16:53:30,440 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 16:53:30,442 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 16:53:30,443 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 16:53:30,444 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 16:53:30,445 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 16:53:30,445 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 16:53:30,446 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 16:53:30,446 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 16:53:30,447 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 16:53:30,448 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 16:53:30,449 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 16:53:30,451 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 16:53:30,451 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 16:53:30,452 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 16:53:30,453 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 16:53:30,454 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 16:53:30,455 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000279CC915FD0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 16:53:30,457 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000279CC915FD0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 16:53:30,458 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 16:53:30,459 - INFO - Aborting transport connection: state=1; <socket.socket fd=552, family=23, type=1, proto=6, laddr=('::1', 64577, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:53:30,459 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=552, family=23, type=1, proto=6, laddr=('::1', 64577, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:53:30,460 - INFO - Deactivating transport: state=1; <socket.socket fd=552, family=23, type=1, proto=6, laddr=('::1', 64577, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:53:30,461 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 16:53:30,461 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 16:53:30,462 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=552, family=23, type=1, proto=6, laddr=('::1', 64577, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:53:30,463 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 16:54:33,298 - INFO - Ожидание сообщений из очереди tasks...
+2023-06-13 16:54:33,299 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 16:54:34,252 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:34,253 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 16:54:35,073 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:35,074 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 16:54:35,847 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:35,847 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 16:54:36,693 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:36,693 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 16:54:37,578 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:37,578 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 16:54:38,441 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:38,442 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 16:54:39,324 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:39,324 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 16:54:40,151 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:40,151 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 16:54:40,908 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:40,908 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 16:54:41,713 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:41,713 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 16:54:42,639 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:42,640 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 16:54:43,454 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:43,455 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 16:54:44,229 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:44,229 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 16:54:45,057 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:45,058 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 16:54:46,018 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:46,018 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 16:54:46,639 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:46,639 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 16:54:47,141 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:47,141 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 16:54:47,693 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:47,693 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 16:54:48,536 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:48,536 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 16:54:49,173 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:49,173 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 16:54:49,741 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:49,741 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 16:54:50,228 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:50,228 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 16:54:53,363 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:53,363 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 16:54:53,947 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:53,947 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 16:54:54,575 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:54,576 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 16:54:55,128 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:55,128 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 16:54:55,684 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:55,684 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 16:54:56,343 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:56,344 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 16:54:56,999 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:54:57,000 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 16:54:57,570 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:55:44,560 - INFO - Ожидание результатов из очереди results...
+2023-06-13 16:58:21,097 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 16:58:21,100 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 16:58:21,104 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 16:58:21,106 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 16:58:21,107 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 16:58:21,108 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 16:58:21,108 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 16:58:21,110 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 16:58:21,112 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 16:58:21,112 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 16:58:21,113 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 16:58:21,114 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 16:58:21,116 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 16:58:21,118 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 16:58:21,119 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 16:58:21,119 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 16:58:21,120 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000018E9D875F90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 16:58:21,122 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000018E9D875F90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 16:58:21,123 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 16:58:21,124 - INFO - Aborting transport connection: state=1; <socket.socket fd=664, family=23, type=1, proto=6, laddr=('::1', 64800, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:58:21,124 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=664, family=23, type=1, proto=6, laddr=('::1', 64800, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:58:21,125 - INFO - Deactivating transport: state=1; <socket.socket fd=664, family=23, type=1, proto=6, laddr=('::1', 64800, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:58:21,128 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 16:58:21,128 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 16:58:21,129 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=664, family=23, type=1, proto=6, laddr=('::1', 64800, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 16:58:21,130 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 16:58:33,230 - INFO - Ожидание сообщений из очереди tasks...
+2023-06-13 16:58:33,230 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 16:58:33,835 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:33,836 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 16:58:34,376 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:34,377 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 16:58:34,926 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:34,926 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 16:58:35,515 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:35,515 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 16:58:36,030 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:36,031 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 16:58:37,193 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:37,196 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 16:58:38,759 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:38,763 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 16:58:39,659 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:39,660 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 16:58:41,229 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:41,230 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 16:58:41,898 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:41,898 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 16:58:42,595 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:42,595 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 16:58:43,129 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:43,129 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 16:58:43,774 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:43,778 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 16:58:44,883 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:58:44,891 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 16:58:45,461 - INFO - Результаты отправлены в очередь results
+2023-06-13 16:59:21,448 - INFO - Ожидание результатов из очереди results...
+2023-06-13 17:00:30,322 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:00:30,323 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:00:30,323 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:00:30,325 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:00:30,325 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:00:30,325 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:00:30,326 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:00:30,327 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:00:30,327 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:00:30,328 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:00:30,328 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:00:30,329 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:00:30,329 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:00:30,329 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:00:30,330 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:00:30,330 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 17:00:30,330 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000017AB6575FD0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:00:30,331 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000017AB6575FD0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:00:30,332 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 17:00:30,334 - INFO - Aborting transport connection: state=1; <socket.socket fd=448, family=23, type=1, proto=6, laddr=('::1', 64930, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:00:30,345 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=448, family=23, type=1, proto=6, laddr=('::1', 64930, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:00:30,345 - INFO - Deactivating transport: state=1; <socket.socket fd=448, family=23, type=1, proto=6, laddr=('::1', 64930, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:00:30,346 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:00:30,346 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:00:30,347 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=448, family=23, type=1, proto=6, laddr=('::1', 64930, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:00:30,347 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 17:00:51,433 - INFO - Ожидание сообщений из очереди tasks...
+2023-06-13 17:00:51,434 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:00:51,767 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:51,768 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:00:52,219 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:52,220 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:00:52,629 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:52,629 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:00:52,939 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:52,940 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:00:53,213 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:53,213 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:00:53,579 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:53,580 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:00:53,993 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:53,994 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:00:54,434 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:54,435 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:00:54,933 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:54,934 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:00:55,223 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:55,223 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:00:55,578 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:55,578 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:00:55,891 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:55,891 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:00:56,229 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:56,229 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:00:56,514 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:00:56,514 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:00:56,814 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:27,848 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:10:27,849 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:10:27,850 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:10:27,850 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:10:27,851 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:10:27,851 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:10:27,851 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:10:27,852 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:10:27,853 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:10:27,854 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:10:27,854 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:10:27,854 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:10:27,855 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:10:27,855 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:10:27,856 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:10:27,856 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 17:10:27,856 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001FB76295F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:10:27,857 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001FB76295F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:10:27,857 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 17:10:27,858 - INFO - Aborting transport connection: state=1; <socket.socket fd=544, family=23, type=1, proto=6, laddr=('::1', 51271, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:10:27,858 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=544, family=23, type=1, proto=6, laddr=('::1', 51271, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:10:27,858 - INFO - Deactivating transport: state=1; <socket.socket fd=544, family=23, type=1, proto=6, laddr=('::1', 51271, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:10:27,859 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:10:27,859 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:10:27,860 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=544, family=23, type=1, proto=6, laddr=('::1', 51271, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:10:27,860 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 17:10:34,294 - INFO - Ожидание сообщений из очереди tasks...
+2023-06-13 17:10:34,294 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:10:34,534 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:34,534 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:10:34,770 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:34,770 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:10:35,069 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:35,069 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:10:35,360 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:35,360 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:10:35,571 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:35,571 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:10:35,810 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:35,810 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:10:36,159 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:36,159 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:10:36,490 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:36,491 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:10:36,733 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:36,733 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:10:36,976 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:36,976 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:10:37,315 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:37,316 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:10:37,565 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:37,566 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:10:37,829 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:37,830 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:10:38,062 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:10:38,062 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:10:38,305 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:11:09,901 - INFO - Ожидание результатов из очереди results...
+2023-06-13 17:14:35,832 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:14:35,833 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:14:35,835 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:14:35,836 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:14:35,836 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:14:35,837 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:14:35,838 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:14:35,838 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:14:35,839 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:14:35,839 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:14:35,840 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:14:35,841 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:14:35,842 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:14:35,842 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:14:35,843 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:14:35,844 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 17:14:35,844 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001E6892C5F90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:14:35,845 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001E6892C5F90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:14:35,845 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 17:14:35,846 - INFO - Aborting transport connection: state=1; <socket.socket fd=372, family=23, type=1, proto=6, laddr=('::1', 62519, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:14:35,846 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=372, family=23, type=1, proto=6, laddr=('::1', 62519, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:14:35,847 - INFO - Deactivating transport: state=1; <socket.socket fd=372, family=23, type=1, proto=6, laddr=('::1', 62519, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:14:35,847 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:14:35,847 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:14:35,848 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=372, family=23, type=1, proto=6, laddr=('::1', 62519, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:14:35,848 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 17:14:44,053 - INFO - Ожидание сообщений из очереди tasks...
+2023-06-13 17:14:44,053 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:14:44,819 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:44,820 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:14:45,380 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:45,380 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:14:45,988 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:45,989 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:14:46,547 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:46,547 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:14:47,300 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:47,300 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:14:48,220 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:48,220 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:14:49,004 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:49,004 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:14:49,496 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:49,497 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:14:50,096 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:50,096 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:14:50,777 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:50,777 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:14:51,571 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:51,571 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:14:52,282 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:52,282 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:14:52,865 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:52,865 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:14:53,461 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:14:53,461 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:14:54,062 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:39:49,514 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 17:39:49,532 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000014F6599B150> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:39:49,543 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000014F6599B150> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:39:49,554 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 17:39:49,562 - INFO - Aborting transport connection: state=1; <socket.socket fd=576, family=23, type=1, proto=6, laddr=('::1', 62534, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:49,566 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=576, family=23, type=1, proto=6, laddr=('::1', 62534, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:49,567 - INFO - Deactivating transport: state=1; <socket.socket fd=576, family=23, type=1, proto=6, laddr=('::1', 62534, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:49,570 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:39:49,571 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:39:49,584 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=576, family=23, type=1, proto=6, laddr=('::1', 62534, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:49,586 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 17:39:54,225 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:39:54,226 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:39:54,229 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:39:54,229 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:39:54,231 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:39:54,233 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:39:54,233 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:39:54,234 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:39:54,235 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:39:54,236 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:39:54,237 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:39:54,238 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:39:54,240 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:39:54,241 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:39:54,242 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:39:54,242 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 17:39:54,243 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001E688495F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:39:54,244 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x000001E688495F10> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:39:54,245 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 17:39:54,247 - INFO - Aborting transport connection: state=1; <socket.socket fd=340, family=23, type=1, proto=6, laddr=('::1', 49973, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:54,249 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=340, family=23, type=1, proto=6, laddr=('::1', 49973, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:54,249 - INFO - Deactivating transport: state=1; <socket.socket fd=340, family=23, type=1, proto=6, laddr=('::1', 49973, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:54,250 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:39:54,250 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:39:54,251 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=340, family=23, type=1, proto=6, laddr=('::1', 49973, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:39:54,252 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 17:39:57,560 - INFO - Ожидание сообщений из очереди tasks...
+2023-06-13 17:39:57,561 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:39:57,920 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:39:57,921 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:39:58,289 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:39:58,290 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:39:58,920 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:39:58,921 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:39:59,342 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:39:59,343 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:39:59,729 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:39:59,729 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:40:00,128 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:00,128 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:40:00,580 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:00,580 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:40:01,045 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:01,046 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:40:01,564 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:01,564 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:40:01,990 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:01,991 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:40:02,512 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:02,512 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:40:03,133 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:03,133 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:40:03,545 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:03,546 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:40:03,968 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:03,969 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:40:04,405 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:40:05,852 - INFO - Ожидание результатов из очереди results...
+2023-06-13 17:41:16,270 - INFO - Aborting transport connection: state=1; <socket.socket fd=684, family=23, type=1, proto=6, laddr=('::1', 49987, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:16,271 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=684, family=23, type=1, proto=6, laddr=('::1', 49987, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:16,273 - INFO - Deactivating transport: state=1; <socket.socket fd=684, family=23, type=1, proto=6, laddr=('::1', 49987, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:16,274 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByBroker: (320) 'CONNECTION_FORCED - Closed via management plugin'
+2023-06-13 17:41:16,274 - INFO - Stack terminated due to ConnectionClosedByBroker: (320) 'CONNECTION_FORCED - Closed via management plugin'
+2023-06-13 17:41:16,275 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=684, family=23, type=1, proto=6, laddr=('::1', 49987, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:16,275 - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) 'CONNECTION_FORCED - Closed via management plugin'
+2023-06-13 17:41:24,007 - INFO - Aborting transport connection: state=1; <socket.socket fd=424, family=23, type=1, proto=6, laddr=('::1', 50068, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:24,007 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=424, family=23, type=1, proto=6, laddr=('::1', 50068, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:24,009 - INFO - Deactivating transport: state=1; <socket.socket fd=424, family=23, type=1, proto=6, laddr=('::1', 50068, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:24,011 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByBroker: (320) 'CONNECTION_FORCED - Closed via management plugin'
+2023-06-13 17:41:24,011 - INFO - Stack terminated due to ConnectionClosedByBroker: (320) 'CONNECTION_FORCED - Closed via management plugin'
+2023-06-13 17:41:24,012 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=424, family=23, type=1, proto=6, laddr=('::1', 50068, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:24,013 - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) 'CONNECTION_FORCED - Closed via management plugin'
+2023-06-13 17:41:46,732 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:41:46,733 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:41:46,735 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:41:46,736 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:41:46,736 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:41:46,736 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:41:46,737 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:41:46,737 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:41:46,738 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:41:46,738 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:41:46,739 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:41:46,739 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:41:46,740 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:41:46,741 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:41:46,741 - INFO - Ссылка отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:41:46,742 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 17:41:46,742 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000018E38BA5E90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:41:46,744 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000018E38BA5E90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 17:41:46,744 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 17:41:46,746 - INFO - Aborting transport connection: state=1; <socket.socket fd=376, family=23, type=1, proto=6, laddr=('::1', 50206, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:46,747 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=376, family=23, type=1, proto=6, laddr=('::1', 50206, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:46,748 - INFO - Deactivating transport: state=1; <socket.socket fd=376, family=23, type=1, proto=6, laddr=('::1', 50206, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:46,749 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:41:46,753 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 17:41:46,754 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=376, family=23, type=1, proto=6, laddr=('::1', 50206, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 17:41:46,754 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-13 17:41:59,689 - INFO - Ожидание сообщений из очереди tasks...
+2023-06-13 17:41:59,689 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-13 17:41:59,940 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:41:59,941 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-13 17:42:00,184 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:00,185 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-13 17:42:00,429 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:00,430 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-13 17:42:00,686 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:00,687 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-13 17:42:00,951 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:00,951 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-13 17:42:01,214 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:01,214 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-13 17:42:01,512 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:01,513 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-13 17:42:01,797 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:01,797 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-13 17:42:02,083 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:02,083 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/upravlenie-komandami-razrabotki-v-it-proektah-teoriya/
+2023-06-13 17:42:02,381 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:02,381 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/vsyo-o-selektorah-v-css-ot-osnov-do-vyswego-pilotazha/
+2023-06-13 17:42:02,707 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:02,707 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/eslint-plagin-dlya-sortirovki-importov-obektov-typescript-interfejsov-jsx-propsov-i-dr/
+2023-06-13 17:42:03,050 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:03,050 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-izobrazhenij-pdf-v-png-ili-jpg/
+2023-06-13 17:42:03,328 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:03,328 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/kak-stavit-zadachi-chtoby-oni-vypolnyalis/
+2023-06-13 17:42:03,587 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:03,587 - INFO - Получена ссылка из очереди tasks: https://tproger.ru/https://tproger.ru/articles/poproshhajtes-s-operatorom-rasprostraneniya-ispolzujte-composer-po-umolchaniyu/
+2023-06-13 17:42:03,866 - INFO - Результаты отправлены в очередь results
+2023-06-13 17:42:26,072 - INFO - Ожидание результатов из очереди results...
+2023-06-13 17:42:26,072 - INFO - Получен результат из очереди results: Аня Карташова1 июня в 12:250Unstable Diffusion — аналог Midjourney без
+цензурыUnstable Diffusion — это нейросеть, которая создана на основе Stable
+Diffusion с той разницей, что она специально обучалась генерировать 18+
+изображения девушек.Она работает так же, как Midjourney, но в ней нет никакой
+цензуры, при этом у Unstable Diffusion есть бесплатная версия, которая позволяет
+генерировать 28 картинок за 3 часа.Пример генерации&nbsp;Unstable DiffusionЧем
+вы пользуетесь для генерации NSFW?Stable DiffuisonUnstable DiffusionPornpenЯ не
+генерирую. Я смотрюНаписать свой вариантРегистрация на Unstable DiffusionЧтобы
+зарегистрироваться в Unstable Diffusion, перейдите на официальный сайт и
+залогиньтесь через электронную почту Google или Discord.Вся регистрация проходит
+через пару кликов. Вам не нужно даже подтверждать подлинность аккаунта с помощью
+кода в письме или переходом по ссылке.Unstable Diffusionwww.unstability.aiЕсли
+вы находитесь в России, нужно авторизоваться со включенным VPN.Генерация
+изображенийПосле авторизации откроется окно, в левом меню которого вы сможете
+настроить промпт. Для этого нужно заполнить следующие пункты:Prompt – здесь
+укажите через запятую всё, что хотите увидеть на финальном изображении. Здесь же
+следует указать технические требования к картинке, к примеру, разрешение
+изображения.Exclude – здесь нужно указать через запятую всё, чего не должно быть
+на изображении после генерации. Это поле также подходит для технических
+требований к изображению.Genre – здесь укажите стиль сгенерированного
+изображения. В выпадающем меню выберите подходящий вариант: Digital Art,
+фотореалистичный режим, аниме и универсальный стиль изображения.Aspect Ratio – с
+помощью ползунка выберите, каким должно быть изображение: вертикальным,
+горизонтальным или квадратным.Number – укажите количество картинок, которые
+нужно сгенерировать по указанному промпту. Можно указать от 1 до 4
+вариантов.Generation Speed – выберите между обычной скоростью генерации и
+ускоренной версией. Чтобы не жертвовать качеством, советуем выбрать обычную
+скорость.Попытки нагенерить гигачадного Типичного Программиста. С обычной
+генерацией картинок Unstable Diffusion тоже справляетсяПо умолчанию, Unstable
+Diffusion будет генерировать самые обыкновенные изображения. Если вы хотите
+добиться от нейросети пикантных изображений, добавьте в промпт тэги
+18+.ЗаключениеПосле того, как Midjourney ввела исключительно платные тарифы,
+Unstable Diffusion — настоящая отдушина для энтузиастов, которые не могут
+оплатить доступ (а причин здесь может быть много). При этом отсутствие цензуры в
+Unstable Diffusion позволяет воплотить все самые смелые задумки. >: )))Но,
+пользуясь отсутствием цензуры, помните: с большой силой приходит большая
+ответственность.Следите за новыми постами по любимым темамПодпишитесь на
+интересующие вас теги, чтобы следить за новыми постами и быть в курсе
+событий.ДизайнИскусственный интеллектНейронные сетиНовостиПоделиться1000028
+2023-06-13 17:42:26,078 - INFO - Получен результат из очереди results: Иннотех13 июня в 11:330Userstory как способ поиска ошибок в интерфейсеПавел
+АнплеенкоСтарший дизайнер UI/UX Группы «Иннотех»Сегодня поговорим о том как
+искать в интерфейсе ошибки, которые неизбежно появляются при проектировании
+фичи. Зачастую они возникают вследствие кропотливого труда и большой фичи, а
+также при плохом анализе и видении конечного результата.Итак, что же делать,
+чтобы проектировать интерфейс качественней и отлавливать все возможные ошибки
+при проектировании?Разрабатывая технологическую платформу, мы часто применяем
+userstory для того, чтобы продемонстрировать дизайн-решение фичи, а также найти
+возможные ошибки.У нас есть отдельный проект в Figma, где мы готовим и
+демонстрируем макеты при защите дизайн-решения перед
+руководителем.Приведупример, как выглядит userstory.Над сбором макетов и
+последующим построением userstory работают два человека — как правило, это
+дизайнер и системный аналитик. Роли распределены между ними следующим образом:
+дизайнер собирает userstory, а системный аналитик описывает каждый шаг
+пользователя и поведения интерфейса. При этом они находятся на связи и общаются
+между собой. В таком тандеме дизайнер и системный аналитик могут найти и
+исправить большое количество багов, которые могут быть выявлены в ходе
+подготовки userstory к защите дизайн-решения. Дизайнер может и в одиночку
+готовить макеты для показа, но в группе это проще и быстрее.При подготовке
+макетов к защите у нас есть определенные правила — расскажу о них
+подробнее.Правило №1Любая userstory начинается с роли, под которую проектируется
+интерфейс будущей фичи. Это нужно для того, чтобы сфокусировать всех участников
+встречи на определенную роль в данный момент и потом не запутаться самому. Также
+эта роль помогает при демонстрации дизайн-решения смежным командам.Правило №2От
+роли отводится стрелка на стартовую страницу процесса. Не рекомендуется всегда
+начинать userstory с самой страницы авторизации из-за большого количества
+макетов: этот процесс мы выносим за скобки. Для примера я покажу процесс
+регистрации и авторизации.Правило №3Между экранами всегда пишется информация о
+том, что пользователь с соответствующей ролью делает на предыдущем экране. В
+описании с иконкой ”i” мы пишет подробности, что должно произойти на следующем
+экране, и любую другую полезную информацию, чтобы при проказе все дополнительные
+вопросы касательно реализации закрывались сами собой. Важная информация помечена
+красным цветом и иконкой “!”.Правило №4Наименование ролиПри написании информации
+между экранами мы используем наименование роли или нескольких ролей — в
+зависимости от того, для кого конкретно разрабатывается фича. От лица роли мы
+описываем шаги, дальнейшие действия и дополнительную информацию.Правило №5При
+подготовке макетов к демонстрации в userstory добавляются макеты с
+дополнительными действиями и состояниями. Это нужно для того, чтобы все
+участники встречи видели все возможные действия, с которыми будет необходимость
+работать пользователю.Правило №6Чаще всего мы используем черный цвет для
+отображения целевого сценария. Дополнительные цвета мы используем для того,
+чтобы показать нецелевые сценарии, которые есть в процессе.Остальные цвета
+задаются на усмотрение дизайнера. Также при множестве вариантов дизайнер
+добавляет метку с названием сценария. Различные цвета помогают сконцентрировать
+внимание зрителя при демонстрации сценария.Красный цвет линий мы используем для
+того, чтобы показывать деструктивные операции, например, удаление.Правило
+№7Расстояние между макетами мы делаем 2000px. Мы придерживаемся сеточного
+позиционирования макетов.Какие инструменты мы используемЯ использую плагин для
+Figma —Autoflow. Дизайнеры в моей команде используют стрелочки из FigmaJam. Мы
+никак не регламентируем, что использовать: главное чтобы было комфортно и макеты
+готовились быстро.Какие плюсы такого подхода?Быстро находятся проблемы и
+недочеты, которые были упущены во время проведения анализа и проектирования
+интерфейса;Удобно демонстрировать дизайн-решение руководству или коллегам из
+смежных команд;Удобно демонстрировать дизайн-решение команде;Такая карта
+помогает разработчикам проследить весь путь пользователя и понять его
+особенности, также разработчики лучше понимают детали фичи;В любой момент можно
+вернуться к старым макетам и освежить память о разработанном функционале;Все
+необходимые состояния интерфейса находятся близко к связанному с ним
+экрану.Какие минусы такого подхода?Нужно закладывать время на подготовку макетов
+для презентации;Нужно отвлекать сотрудников для помощи в подготовке;Переделки в
+ходе получения комментариев во время презентации;Требуется определенный уровень,
+чтобы собирать макеты быстро и писать описание.Такой подход помогает находить и
+презентовать дизайн-решения с минимальным количеством ошибок и получить глубокую
+проработку будущей фичи. Попробуйте — ваши интерфейсы улучшатся, а команда
+разработки скажет вам спасибо.Полезная ссылкаПодготовил маленькую библиотеку для
+оптимизации времени при построении userstory. Она доступна по ссылке:Error
+handling this external URLwww.figma.comСледите за новыми постами по любимым
+темамПодпишитесь на интересующие вас теги, чтобы следить за новыми постами и
+быть в курсе событий.Веб-дизайнДизайнДизайн интерфейсов и UXПоделиться100001
+2023-06-13 17:42:26,080 - INFO - Получен результат из очереди results: Аня Карташова13 июня в 12:430SpaceX наняла 14-летнего разработчика c дипломом
+бакалавраКомпания SpaceX наняла 14-летнего разработчика Кайрена Квази в отдел
+разработки ПО для Starlink. Недавно он получил степень бакалавра в Инженерной
+школе Университета Санта-Клары в Калифорнии, став при этом самым молодым
+выпускником вуза.До того, как получить оффер в SpaceX, Кайрен целый год подавал
+отклики на вакансии. Всего он получил 95 отказов и всего три предложения на
+полный рабочий день.Shae Hammond/Bay Area News Group/TNSМама подростка
+рассказывает, что Кайрен с самого детства показывал незаурядные способности. В
+два года он уже говорил полными предложениями, а врачи отмечали, что его
+интеллектуальный и эмоциональный интеллект зашкаливает.Двухлетний мальчик учился
+в египетской школе, когда началась арабская весна. В один из дней он подговорил
+одноклассников начать марш под лозунгом «Свободный Египет, демократия
+сейчас».Тогда врачи пришли к выводу, что уровень IQ Кайрена выше, чем у 99,9%
+населения Земли. При этом мать ребёнка отметила, что Кайрен отлично
+социализировался, в отличие от многих детей-вундеркиндов.В 10 лет Кайран
+поступил в Лас-Позитас, общественный колледж в Ливерморе, в этом же году он
+прошел стажировку в Intel Labs в качестве научного сотрудника по исследованию
+ИИ.В 11 лет Кайран перешел в Университет Санта-Клары, где стал изучать
+компьютерные науки и технику. Выпускной мальчика должен состояться 17
+июня.Завидуете?Да, честно говоря. Парню повезло: он смог проделать большой путь
+в краткие сроки.Нет. У Кайдена есть интеллектуальное преимущество, поэтому
+некорректно сравнивать его со средними разработчиками.Я тоже гений!Написать свой
+вариантСледите за новыми постами по любимым темамПодпишитесь на интересующие вас
+теги, чтобы следить за новыми постами и быть в курсе событий.Илон МаскИстория
+успехаКарьераНовостиПоделитьсяОценить00000
+2023-06-13 17:42:26,083 - INFO - Получен результат из очереди results: 13 июня в 12:2405 сборщиков модулей для приложений Node.jsNode.js была самой
+используемой технологией веб-разработки среди профессиональных разработчиков в
+2022 году.Она предлагает несколько фантастических функций для быстрого создания
+масштабируемых высокопроизводительных приложений. Однако, по мере роста
+сложности и размера приложений, Node.js становится сложно обрабатывать
+зависимости при сохранении производительности.Сборка модулей объединяет файлы и
+их зависимости в один набор. Сборка позволяет разработчикам эффективно управлять
+зависимостями и упростить развертывание.Frontend-разработчик отдела облачной
+платформыРенессанс Банк,, можно удалённо,По итогам
+собеседованияtproger.ruВакансии на tproger.ruВ этой статье будут рассмотрены 5
+сборщиков модулей для вашего приложения на Node.js.1. Webpack: мощная сборка и
+оптимизацияWebpack — это популярный инструмент для эффективной сборки и
+оптимизации приложений Node.js. Webpack можно использовать не только для сборки
+JS-приложений, но и для CSS, изображений и многого другого.Webpack еженедельно
+загружают 27 миллионов раз через NPM.Преимущества Webpack:Предоставляет граф
+зависимостей.Поддерживает разбивки пакетов на мелкие фрагменты, чтобы загружать
+их по требованию.Поддерживает широкий спектр плагинов.Мощная поддержка
+сообщества.Недостатки Webpack:Его сложно настроить, если вы новичок в
+Webpack.Время сборки на Webpack выше, чем у конкурентов.Как использовать Webpack
+с Node.jsШаг 1. Установите Webpack.npm install webpack webpack-cli --save-devШаг
+2. Создайте конфигурацию Webpack.Создайте новый файл с именемwebpack.config.jsв
+корневом каталоге. Он будет содержать все конфигурации, связанные с Webpack.//
+webpack.config.js const path = require('path');  module.exports = {   target:
+'node',    entry: './src/index.js',    output: {     filename: 'bundle.js',
+path: path.resolve(__dirname, 'dist'),   },   // Additional configuration goes
+here };Код выше — это пример конфигурации веб-пакета. Вtargetуказанnode, так как
+мы используем приложение на Node.js.Артибутentryуказывает на входной файл
+приложения, а атрибутoutputпозволяет определить имя пакета и конечный
+каталог.Если вы используете загрузчики, их можно добавить в дополнительных
+конфигурациях:module: {     rules: [       {         test: /\.js$/,
+exclude: /node_modules/,         use: 'babel-loader',       },     ],   },Шаг 3.
+Обновите package.json с помощью Webpack.Обновите команду сборки в
+файлеpackage.json, чтобы запустить конфигурацию Webpack."scripts": {   "build":
+"webpack --config webpack.config.js"  }Выполните команду, чтобы завершить
+сборку.npm run build2. Parcel: сборка с нулевой конфигурациейParcel — еще один
+популярный сборщик, который вы можете использовать для сборки приложений
+Node.js.В отличие от Webpack, вам не потребуется писать дополнительные настройки
+для Parcel, так как это сборщик с нулевой конфигурацией.Он автоматически
+обнаруживает зависимости проекта.Преимущества посылки:Не требует дополнительной
+настройки.Предлагает обновления в режиме реального времени.Легко импортирует и
+объединяет различные типы ресурсов: CSS, изображения и шрифты.Поддерживает
+разделение кода.Использует кэширование и параллельную обработку для оптимизации
+производительности.Недостатки посылки:Возможности настройки ограничены.Меньшая
+экосистема по сравнению с Webpack.Как использовать Parcel с Node.jsШаг 1.
+Установите Parcel.npm install parcel-bundler --save-devШаг 2. Добавьте скрипты в
+package.json.Обновите команду сборки в файлеpackage.json."scripts": {   "build":
+"parcel build src/index.js --out-dir dist" }В приведенном выше примере файл
+ввода (src/index.js) и выходной каталог (dist) определяются в команде сборки.
+Однако Parcel не требует их декларации и автоматически определяет файл
+ввода.Выполните командуnpm run, чтобы собрать пакет.3. Browserify: удобный
+сборщик JavaScriptBrowserify — широко используемый сборщик JavaScript с 2
+миллионами еженедельных загрузок NPM. Browserify поддерживает не только Node.js,
+но и операторыrequire()в браузере.Преимущества Browserify:Позволяет писать код с
+использованием синтаксиса модуля Node.js (require()).Простая конфигурация.Мощное
+сообщество и широкий выбор плагинов.Совместимость с большинством
+браузеров.Недостатки Browserify:Ограниченные возможности оптимизации.Не
+поддерживает динамическое разделение кода.Как использовать Browserify с
+Node.jsШаг 1. Установите Browserify.npm install browserify --save-devШаг 2.
+Добавьте сценарии Browserify в package.json.Как и в Parcel, вам не нужен
+отдельный файл конфигурации для Browserify.Вы можете использовать команду сборки
+в файлеpackage.json."scripts": {   "build": "browserify src/index.js -o
+dist/bundle.js" }Здесьsrc/index.js— это входной файл приложения Node.js,а
+dist/bundle.js— выходной файл.Выполните команду сборкиnpm run, чтобы собрать
+пакет.4. Brunch: простая и быстрая сборка приложений на JavaScriptBrunch — это
+сборщик JavaScript, ориентированный на простоту и скорость.Хотя он менее
+популярен, чем Webpack или Browsify, его легко изучить, а его функции помогают
+разработчикам сосредоточиться на реализации функций, а не на настройке.У Brunch
+более 6,8 тыс. звезд на GitHub.Преимущества Brunch:Простота установки и
+настройки.Инкрементальный процесс сборки.Поддержка разных языков и
+препроцессоров: JavaScript, TypeScript, ES6 и CoffeeScript.Поддержка внешних
+библиотек через npm.Недостатки Brunch:Ограниченные возможности настройки.Мало
+плагинов и загрузчиков.Не подходит для сложных проектов.Как использовать бранч с
+Node.jsШаг 1. Установите Brunch.npm install brunchШаг 2. Создайте файл
+конфигурации Brunch.Создайте новый файл с именемbrunch-config.jsв корневом
+каталоге.module.exports = {   files: {     javascripts: {       entryPoints: {
+'app.js': 'src/js/app.js',        },     },     stylesheets: {       joinTo:
+'app.css',      },   },   // Additional configurations go here };Здесь
+атрибутentryPointsопределяет файл входа для приложения Node.js,
+аstylesheetsобозначает выходной файл для CSS.Если вы хотите использовать
+плагины, вы можете добавить их в конфигурацию:module.exports = {   files: {
+...   },    plugins: {      babel: {presets: ['latest', 'react']},      postcss:
+{processors: [require('autoprefixer')]}    } };Шаг 3. Добавьте сценарии Brunch в
+package.json.Обновите команду сборки в файлеpackage.jsonс помощью сборки Brunch.
+Выполните командуnpm run buildдля сборки пакета."scripts": {   "build": "brunch
+build" }5. Rollup: эффективная сборка модулейRollup — еще один популярный
+сборщик модулей JavaScript, ориентированный на высокую производительность. Он
+использует синтаксис модуля ES для создания производительных пакетов.Помимо
+JavaScript, Rollup также поддерживает CSS и JSON.Еженедельно Rollup загружают
+более 12 миллионов раз через NPM.Преимущества Rollup:Оптимизирует код, удаляя
+ненужные куски.Поддерживает разделение кода.Поддерживает синтаксис ES6.Может
+создавать пакеты в модулях CommonJS, AMD, UMD и ES.Недостатки
+Rollup:Конфигурация может быть сложной.Небольшие сообщество и экосистема
+плагинов.Как использовать Rollup с Node.jsШаг 1. Установите Rollup.npm install
+rollup --save-devШаг 2. Создайте файл конфигурации для сборки.Создайте новый
+файл с именемrollup.config.jsв корневом каталоге.// rollup.config.js export
+default {   input: 'src/index.js',   output: {     file: 'dist/bundle.js',
+format: 'cjs',   },   plugins: [      resolve({        extensions: ['.js'],
+}),      babel({        babelHelpers: 'bundled',        exclude:
+'node_modules/**',      }),    ], };В этой конфигурации:Атрибут input определяет
+точку входа вашего приложения Node.js.Атрибут output определяет выходной файл и
+формат для пакета. В примере тип вывода — CommonJS.Массив plugins содержит
+Babel.Шаг 3. Добавьте сценарии объединения в package.json.Наконец, обновите
+команду сборки в файлеpackage.jsonи выполните командуnpm run build, чтобы
+собрать пакет."scripts": {   "build": "rollup build" }ЗаключениеNode.js
+позволяет создавать масштабируемые и высокопроизводительные серверные
+приложения. Сборка очень важна для приложений на Node.js, так как со временем
+приложения становятся сложными из-за множества зависимостей.В этой статье мы
+рассмотрели пять инструментов, которые вы можете использовать для сборки
+приложений Node.js в соответствии с вашими нуждами.Например, если ваше
+приложение большое и требует дополнительных настроек, выберите Webpack или
+Rollup. Вы можете использовать сборщик по типу Parcel или Brunch, если вам не
+нужны пользовательские конфигурации.Надеемся, что эти сборщики помогут вам
+создавать более производительные приложения Node.js.Следите за новыми постами по
+любимым темамПодпишитесь на интересующие вас теги, чтобы следить за новыми
+постами и быть в курсе событий.JavaScriptNode.jsВеб-
+разработкаИнструментыПоделитьсяОценить00000
+2023-06-13 17:42:26,093 - INFO - Получен результат из очереди results: МТС13 июня в 14:580Как войти в айти и не слиться по дорогеА ведь всё так хорошо
+начиналось…Когда делаешь первые шаги в разработке, в глазах горит огонь. Хочется
+бесконечно поглощать знания и писать миллионы строк кода. Но проходит пару
+месяцев — и мотивации как не бывало.Разбираем 7 причин, почему так происходит, и
+рассказываем, что с этим делать.Причина № 1. Прогресс становится менее заметенУ
+новичков любой освоенный инструмент вызывает восторг. Ещё вчера ничего не
+выходило, а уже сегодня получилось написать первый простой код, который даже
+заработал. От собственных успехов возникает ощущение эйфории, и оно мотивирует
+заниматься дальше.Со временем замечать прогресс становится всё сложнее. Когда
+код уже работает, трудно понять, стал ли он лучше. Да, новый код более
+лаконичный и простой, но фактически он выполняет те же задачи. Кажется, что
+подвижек нет, и желание заниматься дальше пропадает.Что делатьОценивать успехи
+на более длинной дистанции. Например, не раз в пару дней, а раз в месяц — так
+прогресс будет более очевидным.Чтобы получить порцию мотивации сейчас,
+посмотрите, какой код вы писали в начале пути. Скорее всего, он слишком
+объёмный, в нём встречаются неправильно расставленные символы, дубли и ещё много
+чего. Наверняка вы больше не допускаете таких очевидных ошибок — и это явный
+признак прогресса.Каждый раз, когда будет пропадать мотивация, возвращайтесь к
+своему старому коду и вспоминайте, какой путь уже прошли.Причина № 2. Хватаетесь
+за всё подрядЯзыков программирования, технологий и инструментов так много, что в
+начале пути разбегаются глаза. Хочется осваивать много всего, а заодно и
+английский подтягивать, чтобы учиться было легче. Но если нет фокуса на чём-то
+одном, мотивация испаряется очень быстро.Что делатьПоставить чёткую цель и
+написать пошаговый алгоритм, как её достичь. Это поможет сохранить
+фокус.Например, начинающий разработчик хочет изучить JavaScript. Он поставил
+себе задачу — освоить основы языка программирования. Для этого составил такой
+план действий:Изучить синтаксис JavaScript.Понять переменные.Научиться
+пользоваться операторами — арифметическими, логическими, условными и
+сравнениями.Освоить циклы.Изучить функции.Написать первую простую программу,
+например, вычисление факториала числа.Теперь он знает, на чём нужно
+сфокусироваться, и не будет отвлекаться, например, на Document Object
+Model.Причина № 3. Нет ощутимого результата работыОбучение всегда начинается с
+теории, но программирование — это практика. Скорее всего, вам хочется видеть
+результаты своих трудов, но когда нет реальных проектов, это сложно.Да, можно
+делать учебные задания, но это часто не приносит морального удовлетворения.
+Никто не использует этот код для решения реальных задач, поэтому может
+показаться, что он не очень-то и полезен.Что делатьРаботать над пет-проектами,
+например, создать собственный сайт или простое приложение вроде трекера для
+учёта рабочего времени. Это будут реальные задачи, которые приносят реальную
+пользу — на такой результат приятно посмотреть, да и пет-проект можно положить в
+портфолио.Причина № 4. Вы усталиТак бывает, ведь если слишком много учиться и
+мало отдыхать, можно просто выгореть. На это могут указывать такие
+признаки:Болят тело и мышцы.Голова раскалывается, глаза уже не могут смотреть в
+экран.Плохой сон, получается отдохнуть либо очень мало, либо слишком много.Так
+организм реагирует на перенапряжение. А ещё есть эмоциональные признаки:Не
+хочется браться за учёбу.Появляется прокрастинация.Мысли об образовании и
+самообразовании вызывают тревогу.Что делатьБанально — отдохнуть. Лучше всего
+взять отпуск на работе, не включаться ни в какие проекты, не запихивать в голову
+новые знания, а хорошенько расслабиться и выспаться. Скорее всего, мотивация
+вернётся.Если взять отпуск возможности нет, тогда можно сделать
+следующее:Наладить распорядок дня. Ложитесь и вставайте примерно в одно время,
+спите минимум 6–8 часов, чтобы организм мог восстановиться, а мозг снова начал
+воспринимать информацию.Спланировать интересные активности на выходные.
+Постарайтесь сменить вид деятельности. Раз всю рабочую неделю вы проводите за
+компьютером, в выходные попробуйте сходить в бассейн или в небольшой поход. Но
+вообще будет полезен любой вид отдыха, который приносит радость.Отложить занятия
+и возвращаться к ним постепенно. Когда почувствуете в себе силы заниматься, не
+кидайтесь в омут учёбы с головой. Возвращайтесь к самообразованию постепенно —
+например, по полчаса в день. Иначе есть риск перегрузить мозг информацией и
+снова выгореть.Причина № 5. Отстали от учебной программыКогда при обучении есть
+чёткие сроки и дедлайны, это мотивирует заниматься и сдавать всё вовремя. Но
+иногда работает наоборот.Например, на основной работе появляется много дел и
+приходится их быстро заканчивать. Начальство подгоняет, сроки горят — тут уж не
+до учёбы. А потом появляются какие-то семейные проблемы, и самообразование снова
+отходит на второй план.Когда наконец удаётся вернуться к учёбе, наверстать нужно
+очень много. Это пугает: непонятно, как закрывать старые пробелы и одновременно
+не отставать от новых тем. Кажется, что это невозможно, и мотивация
+пропадает.Что делатьЕсть слона по кусочкам. Даже самая большая задача не будет
+такой страшной, если разбить её на подзадачи.Закрыть долги по учёбе — звучит
+очень сложно, непонятно, как к этому подступиться.Составить план по закрытию
+долгов — уже проще.Причина № 6. Не хватает поддержкиК сожалению, близкие не
+всегда принимают наши цели и увлечения, поэтому могут бросать неосторожные
+фразы:«И зачем ты потратил такую гору денег на этот курс? Всё равно тебе не
+стать айтишником»«Что, захотел огромную зарплату? Не жили богато — нечего и
+начинать»«Ну что ты всё копаешься в своём компьютере? На завод иди»Такие реплики
+ранят, пропадает вера в себя, учиться дальше не хочется.Что делатьПоищите
+поддержку в другом месте. Например, если учитесь на курсе с обратной связью,
+попросите куратора замечать больше позитивных моментов в ваших проектах. Обычно
+кураторы стараются помочь студентам дойти до конца, поэтому охотно хвалят
+работы.Ещё на обучающих курсах обычно есть чат участников. В нём можно
+поделиться своими переживаниями с другими начинающими разработчиками — наверняка
+вы не одиноки в своих проблемах.Если вы изучаете программирование
+самостоятельно, вступите в профильные сообщества и попросите более опытных
+разработчиков рассказать, с какими трудностями они сталкивались в начале пути.
+Скорее всего, им удалось с ними справиться — значит удастся и вам.Причина № 7.
+Не получается монетизировать навыкиОбычно в IT приходят за интересными задачами
+и хорошими гонорарами. Но когда несколько месяцев подряд не выходит найти
+работу, возникают сомнения в собственной компетентности.Появляются мысли
+вроде:«Меня никогда не заметят»«Другие намного лучше меня»«И зачем только я сюда
+сунулся»«Это просто не моё»В общем, синдром самозванца расправляет плечи и
+крадёт желание учиться.Что делатьПринять, что найти работу быстро получается не
+всегда. И дело не в вас, а в рынке — в среднем начинающий разработчикищетпервый
+проект от трёх месяцев до года. Так что если вы всё ещё не получили оффер мечты,
+не отчаивайтесь и продолжайте делать отклики.У нас естьстатья о том, как джуну
+устроиться на работу. Прочитайте её — мы рассказываем, как прокачивать резюме и
+откликаться на вакансии так, чтобы HR захотели пригласить вас на
+собеседование.***Теперь давайте сделаем эту статью ещё полезнее!Пропадала ли у
+вас мотивация во время обучения и как вы с этим справились? Или, может, вы
+испытываете трудности прямо сейчас?Не стесняйтесь говорить о наболевшем —
+выговориться и получить поддержку можно в комментариях \u2b07Следите за новыми
+постами по любимым темамПодпишитесь на интересующие вас теги, чтобы следить за
+новыми постами и быть в курсе событий.Для мотивацииДля
+начинающихПоделитьсяОценить00000
+2023-06-13 17:42:26,102 - INFO - Получен результат из очереди results: Никита13 июня в 14:060Как использовать C# для сжатия размера PDF-
+документовДокументыPDF являются очень распространенным форматом файлов, но они
+часто имеют большийразмер, чем другие форматы файлов. Это может вызвать
+проблемы, например, припересылке PDF-документов по электронной почте они могут
+долго загружаться илискачиваться. Чтобы решить эту проблему, мы можем
+использоватьSpire.PDF for .NET.Установка Spire.PDF for .NETЧтобыиспользовать
+Spire.PDF for .NET, нам нужно сначала установить его. Самыйпростой способ
+сделать это — установить его через NuGet. В Visual Studio мыможем открыть
+менеджер пакетов NuGet и найти Spire.PDF. Затем мы можем выбратьустановку
+Spire.PDF for .NET.C# для сжатия PDF-документовПослеустановки Spire.PDF for .NET
+мы можем приступить к сжатию PDF-документа. Нижеприведен простой пример
+кода:using Spire.Pdf; using Spire.Pdf.Conversion.Compression;  namespace
+CompressPdf {     class Program     {         static void Main(string[] args)
+{             //Загрузка документа PDF при инициализации объекта PdfCompressor
+PdfCompressor compressor = new
+PdfCompressor("C:\\Users\\Administrator\\Desktop\\ToCompress.pdf");
+//Получение параметров сжатия текста             TextCompressionOptions
+textCompression = compressor.Options.TextCompressionOptions;
+//Сжать шрифты             textCompression.CompressFonts = true;
+//Нерасшифрованные шрифты             //textCompression.UnembedFonts = true;
+//Получение параметров сжатия изображения             ImageCompressionOptions
+imageCompression = compressor.Options.ImageCompressionOptions;
+//Настройка качества сжатого изображения
+imageCompression.ImageQuality = ImageQuality.High;              //Изменение
+размера изображений             imageCompression.ResizeImages = true;
+//Сжатие изображений             imageCompression.CompressImage = true;
+//Сохраните сжатый документ в файл
+compressor.CompressToFile("Compressed.pdf");         }     } }Сначалакод
+загружает PDF-документ и инициализирует объект PdfCompressor путем к файлуPDF.
+Затем он обращается к опции сжатия текста и устанавливает
+свойство‘CompressFonts’ в true, что означает, что шрифты, используемые в PDF,
+будутсжаты.Далеекод обращается к опциям сжатия изображений и устанавливает
+свойство‘ImageQuality’ в значение high, что означает, что качество изображения в
+PDFостанется на высоком уровне даже после сжатия. Он также устанавливает
+свойства‘ResizeImages’ и ‘CompressImage’ в true, что означает, что
+изображения,используемые в PDF, будут изменены по размеру и сжаты
+соответственно.Наконец,используйте метод ‘CompressToFile’ объекта PdfCompressor,
+чтобы сохранитьсжатый PDF в новый файл.Другие возможностиПомимосжатия PDF-
+документов, Spire.PDF for .NET поддерживает множество другихфункций. Например, с
+его помощью мы можемРазработчик SharePointАО «Гринатом»,Удалённо,По итогам
+собеседованияtproger.ruВакансии на tproger.ru—C#Создавать PDF-
+документы—C#Добавлять текст, изображения и таблицы—C#Извлекать текст и
+изображения—C#Шифровать и расшифровывать PDF-документыРезюмеВэтой статье мы
+сначала познакомились с основой и проблемами сжатияPDF-документов, затем
+описали, как установить Spire.PDF for .NET. Наконец, мытакже описали другие
+функции, поддерживаемые Spire.PDF for .NET. Мы надеемся,что эта статья будет вам
+полезна!Следите за новыми постами по любимым темамПодпишитесь на интересующие
+вас теги, чтобы следить за новыми постами и быть в курсе
+событий..NETИнструментыПоделитьсяОценить00000
+2023-06-13 17:42:26,103 - INFO - Получен результат из очереди results: Никита9 июня в 12:290Как использовать C# для преобразования PDF в
+WordПреобразование файлов PDF в документы Word является распространенным
+требованием, поскольку во многих случаях формат PDF является наилучшим выбором,
+но при необходимости редактирования или изменения документа более гибким
+является формат Word.Файлы PDF обычно используются для онлайн-публикаций, печати
+и архивирования, а документы Word — для создания, редактирования
+и форматирования файлов. Однако вручную копировать и вставлять содержимое PDF
+в документ Word может занимать много времени и быть ошибочным.В этой статье
+мы расскажем, как использоватьFreeSpire.PDF for .NETдля программного
+преобразования PDF в Word.Как установить Free Spire.PDF for .NETВ первую
+очередь, необходимо открыть наш проект в Visual Studio. Затем нужно открыть
+менеджер пакетов NuGet и выполнить поиск FreeSpire.PDF. В результате поиска
+мы найдем Free Spire.PDF for .NET и нажмем кнопку «Установить». После установки
+мы можем начать использовать Free Spire.PDF for .NET.Обратите внимание:
+бесплатная версия поддерживает преобразование только первых 3 страниц документа.
+Если ваш документ содержит много страниц, вы можете найти и установить
+коммерческую версию Spire.PDF for .NET в NuGet.Фоновые знанияFree Spire.PDF
+предоставляет два режима преобразования, преимущества и недостатки которых
+описаны ниже:Ведущий разработчик C# [1cloud]МТС,, можно удалённо,По итогам
+собеседованияtproger.ruВакансии на tproger.ru•Режим фиксированной компоновки:
+обеспечивает быстрое преобразование и максимально сохраняет оригинальный вид
+PDF-файла. Однако, возможность редактирования сгенерированного документа будет
+ограничена, поскольку каждая строка текста в PDF будет отображаться в отдельном
+фрейме в сгенерированном документе Word.•Режим потоковой компоновки: поточный
+формат является полным режимом распознавания. Преобразованный контент не будет
+отображаться в виде рамок, и структура сгенерированного документа будет
+поточной. Сгенерированный документ Word легко редактируется, но может выглядеть
+иначе, чем исходный файл PDF.Как преобразовать PDF в Doc/Docx с фиксированной
+компоновкойusing Spire.Pdf;  namespace ConvertPdfToDoc {     class Program     {
+static void Main(string[] args)         {             //Создание объекта
+PdfDocument             PdfDocument doc = new PdfDocument();              //
+Загрузка примера файла PDF
+doc.LoadFromFile(@"C:\Users\Administrator\Desktop\sample.pdf");              //
+Преобразование PDF в файл формата Doc и сохранение
+doc.SaveToFile("ToDoc.doc", FileFormat.DOC);              // Преобразование PDF
+в файл формата Docx и сохранение             doc.SaveToFile("ToDocx.docx",
+FileFormat.DOCX);         }     } }Преобразовать файл PDF в документ Doc/Docx с
+поддержкой форматированияusing Spire.Pdf;  namespace ConvertPdfToDocxUsingPsMode
+{     class Program     {         static void Main(string[] args)         {
+//Создаем объект PdfDocument             PdfDocument doc = new PdfDocument();
+//Загружаем образец PDF-файла
+doc.LoadFromFile(@"C:\Users\Administrator\Desktop\sample.pdf");
+//Преобразуем PDF в Word, используя режим PS, установив режим распознавания на
+потоковый             doc.ConvertOptions.SetPdfToDocOptions(true, true);
+//Преобразуем PDF в файл формата Doc и сохраняем
+doc.SaveToFile("ToDoc1.doc", FileFormat.DOC);              //Преобразуем PDF в
+файл формата Docx и сохраняем             doc.SaveToFile("ToDocx1.docx",
+FileFormat.DOCX);         }     } }ИтогВ этой статье мы рассмотрели, как
+использовать Free Spire.PDF для .NET для преобразования PDF в Word. Кроме того,
+мы рассмотрели другие методы преобразования форматов, поддерживаемые этим
+продуктом. Надеемся, что эта статья была полезна для вас.Следите за новыми
+постами по любимым темамПодпишитесь на интересующие вас теги, чтобы следить за
+новыми постами и быть в курсе событий.C#Обучение
+программированиюПоделиться500005
+2023-06-13 17:42:26,107 - INFO - Получен результат из очереди results: Рафаил Агазода9 июня в 12:140Ключи API для ChatGPT были слиты на
+RedditПользователи Redditстали массово делитьсяукраденными ключами доступа к API
+от ChatGPT на сабрэддите r/ChatGPT. Токены были украдены у компаний, которые
+оплатили доступ к GPT-4, но ключи API которых утекли за рамки компаний.В одном
+из случаев пользователь Discodtehe раздавал доступ к учетной записи OpenAI, в
+которой было оплачено использование GPT на 150 000 долларов. Пользователь
+раздавал бесплатный доступ к аккаунту через Reddit и Discord. На Discord-сервере
+набралось более 500 участников.Пользоваться слитыми ключами к ChatGPT —
+этоНормально. Если ты оставляешь ценности на виду, не нужно удивляться, если их
+украдутПлохо. Это огромный ущерб и для компании-пользователя, и для OpenAI,
+который причинён из-за банальной алчности кулхацкеровНаписать свой
+вариантDiscodtehe говорит, что они взломали веб-сайт, который позволяет людям
+совместно работать над проектами кодирования.По другой версии, код доступа к API
+был найден в одном из репозиториев Replit, авторы которого забыли скрыть ключ к
+API OpenAI. Discord-юзеры сообщили, что нашли более 1000 рабочих ключей на
+repl.it через скраппинг репозиториев.Редактор-модератор сообщества по теме
+Python / Data Science / AITproger,Удалённо,От 50\u2009000 \u20bdtproger.ruВакансии на
+tproger.ruПо последним данным, пользователи потратили уже 1039,37 из 150 000
+долларов на счету слитого аккаунта OpenAI.В другом сообщении Discodtehe сообщил,
+что они также создали веб-сайт, на котором люди могут запросить бесплатный
+доступ к API OpenAI. (По иронии судьбы, этот сайт был размещен на Replit, но
+незадолго до публикации сайт стал недоступен).Сайт предлагал пользователям
+ввести свой адрес электронной почты, кликнуть по ссылке от OpenAI, принять
+инвайт и установить свой платежный адрес по умолчанию для организации «weeeee»,
+которую, по-видимому, использует Discodtehe.Discodtehe сообщает, что его аккаунт
+всё ещё не забанен. Пользователи предполагают, что OpenAI придётся просто
+компенсировать ущерб компании, ключ которой попал в руки злоумышленников.Следите
+за новыми постами по любимым темамПодпишитесь на интересующие вас теги, чтобы
+следить за новыми постами и быть в курсе событий.OpenAIВзломИскусственный
+интеллектНейронные сетиНовостиХакерыПоделиться300003
+2023-06-13 17:42:26,108 - INFO - Получен результат из очереди results: Елена Капаца9 июня в 15:050Что такое DythonDython (Dynamic Python) – это
+библиотека Python, созданная для облегчения анализа данных, особенно в области
+анализа зависимостей и корреляций.Она включает в себя набор инструментов,
+облегчающих исследование и визуализацию взаимосвязей в данных. Dython
+специализируется на изучении взаимосвязи между переменными различных типов,
+включая номинальные, ординальные и числовые переменные.Ключевые особенности1.
+Операции с табличными данными:Dython предлагает различные операции для работы с
+данными в формате таблицы (датафрейма): фильтрация, сортировка, объединение и
+агрегирование данных.2. Очистка данных:фреймворк предоставляет функции и методы
+для эффективной очистки данных, включая обработку пропущенных значений, удаление
+дубликатов, преобразование типов данных и другие манипуляции.3. Инжиниринг
+признаков:утилита обеспечивает набор функций для создания новых признаков на
+основе существующих данных. Это может включать создание новых столбцов,
+преобразование значений и извлечение информации из существующих признаков.4.
+Статистический анализ:инструмент предлагает удобные функции для выполнения
+статистического анализа данных. Вы можете проводить описательную статистику,
+проверку на нормальность распределения, корреляционный анализ, тестирование
+гипотез и другие статистические операции.5. Визуализация данных:Dython
+предоставляет инструменты для создания графиков и визуализации данных. Вы можете
+создавать диаграммы, гистограммы, диаграммы рассеяния и другие типы графиков для
+исследования и представления данных.Dython стремится сделать процесс анализа
+данных более простым и удобным для пользователей Python. Он строится поверх
+стандартных библиотек Python, таких как Pandas, Matplotlib и NumPy, и предлагает
+дополнительные функции и утилиты, которые помогают ускорить разработку и анализ
+данных.Пример кодаДавайте посмотрим, как работает этот инструмент. Для начала
+установим его:!pip install dythonПосле установки потребуется перезапуск среды
+(жмем ‘Restart Runtime’). Затем импортируем тул в наш ноутбук, а также другие
+библиотеки:import pandas as pd from dython.nominal import associations from
+sklearn import datasetsЗагрузим данные – известный игрушечный набор о цветах
+ириса в датафрейм:iris = datasets.load_iris()Выделим целевой признак – вид
+ириса:target = ['C{}'.format(i) for i in iris.target]Подготовим данные для
+построения матрицы корреляции:X = pd.DataFrame(data=iris.data,
+columns=iris.feature_names) y = pd.DataFrame(data=target, columns=['target']) df
+= pd.concat([X, y], axis=1)Построим матрицу корреляции:associations(df)Мы
+получим такой замечательный correlation plot, причем в сопоставление попадут
+лишь подходящие признаки (Dython сам отфильтрует неподходящие):Чуть ниже вы
+найдете перечень коэффициентов корреляции в виде таблицы на случай, если этот
+текст нужно куда-то скопировать.Team Lead Python Developer HR TECH (Проект
+Мобильный личный кабинет)АО «Гринатом»,, можно удалённо,По итогам
+собеседованияtproger.ruВакансии на tproger.ruКонечно, во всей своей сложности
+реальные данные одной строкой Dython не почистит, и уж тем более не сможет
+создать все осмысленные искусственные переменные, однако частичная автоматизация
+в сфере EDA (“разведочный анализ данных”) все же теперь существует, что
+сэкономит вам десятки рабочих часов.Пощупать код вы можете вмоем ноутбуке, не
+требующем дополнительной настройки. Помните, что после установки утилиты pip’ом
+требуется перезапуск среды исполнения кнопкой ‘Restart Runtime’.С документацией
+фреймворка можно ознакомиться здесь:dythonshakedzy.xyzКаким инструментом для
+предварительной обработки данных вы пользуетесь чаще всего?scikit-learnpandas-
+profilingdythonДругой инструментНаписать свой вариантСледите за новыми постами
+по любимым темамПодпишитесь на интересующие вас теги, чтобы следить за новыми
+постами и быть в курсе событий.PythonАнализ данныхПоделиться200002
+2023-06-13 17:42:26,113 - INFO - Получен результат из очереди results: Екатерина Дегтярь9 июня в 11:180Управление командами разработки в ИТ-проектах.
+Теория.Правильное управление командами разработки является одним из ключевым
+фактором успеха любого проекта. Давайте поверхностно рассмотрим основные аспекты
+управления командами разработки в ИТ-проектах, такие как состав команды,
+коммуникация, лидерство, оценка производительности и многое другое.1. Состав
+команды разработкиСостав команды разработки включает в себя разработчиков,
+тестировщиков, дизайнеров, менеджеров проектов и других специалистов. Важно
+выбирать специалистов, которые обладают не только техническими знаниями, но и
+умеют работать в команде, имеют высокую мотивацию и готовность к обучению.2.
+КоммуникацияКоммуникация является основополагающим аспектом управления командами
+разработки в ИТ-проектах. Команды должны иметь доступ к информации, необходимой
+для выполнения задач, а также взаимодействовать друг с другом для решения
+проблем и координации работы. Важно установить четкие процессы коммуникации,
+такие как ежедневные встречи, регулярные отчеты о проделанной работе и
+совещания, чтобы обеспечить эффективную коммуникацию внутри команды.3.
+ЛидерствоУспешное управление командами разработки в ИТ-проектах невозможно без
+хорошего лидерства. Лидер команды должен быть хорошо знаком с процессами
+разработки и управления проектами, обладать навыками коммуникации и уметь
+мотивировать команду. Он должен устанавливать ясные цели и обеспечивать команду
+необходимыми ресурсами для достижения этих целей.4. Оценка
+производительностиНеобходимо определить критерии оценки производительности,
+такие как качество кода, сроки выполнения задач и вовлеченность в проект. Оценка
+производительности позволяет выявлять проблемы в работе команды и принимать меры
+для улучшения процессов.5. Процессы (методологии) разработкиВыбор подходящего
+процесса (методологии) разработки определяет весь ход работ по проекту. Каждый
+процесс разработки имеет свои преимущества и недостатки, и важно выбрать
+подходящий процесс разработки, который соответствует требованиям проекта и
+возможностям команды. Agile, Waterfall, DevOps и Lean — это наиболее популярные
+процессы разработки, каждый из которых имеет свои уникальные особенности.Agile—
+это гибкий процесс разработки, который позволяет команде быстро реагировать на
+изменения требований заказчика и изменения внешней среды. Agile основан на
+принципах коллективной работы, быстрого прототипирования и поэтапной доставке
+продукта. Agile также предоставляет команде гибкость и автономию в принятии
+решений, что может повысить уровень мотивации и производительности.Waterfall—
+это традиционный процесс разработки, который состоит из последовательных этапов,
+начиная с определения требований и заканчивая тестированием и сопровождением
+продукта. Waterfall предоставляет команде четкие инструкции и процедуры, что
+может помочь в снижении рисков и повышении качества продукта. Однако, Waterfall
+может оказаться слишком жестким и неспособным быстро адаптироваться к
+изменениям, что может снизить гибкость команды.DevOps— это процесс разработки,
+который объединяет разработку и операции в один единый процесс. DevOps
+предоставляет команде возможность автоматизировать процессы разработки и
+развертывания, что может повысить скорость доставки продукта и снизить риски.
+DevOps также предоставляет команде возможность более тесно сотрудничать между
+собой, что может помочь в снижении ошибок и улучшении качества продукта.Lean—
+это процесс разработки, который сосредоточен на устранении неэффективности и
+минимизации потерь в процессе разработки. Lean предоставляет команде инструменты
+для постоянного улучшения процесса разработки и увеличения его эффективности.
+Lean также предоставляет команде возможность работать с фокусом на потребности
+заказчика, что может помочь в повышении уровня удовлетворенности заказчика.Выбор
+подходящего процесса разработки зависит от ряда факторов, таких как сложность
+проекта, доступность ресурсов, сроки, бюджет и требования заказчика. Лидер
+команды должен провести анализ проекта и определить, какой процесс разработки
+лучше всего подходит для проекта и команды.6. Управление изменениямиУправление
+изменениями является неотъемлемой частью управления командами разработки в ИТ-
+проектах. Изменения в проекте могут происходить в любой момент, и команда должна
+быть готова к изменениям и уметь быстро адаптироваться к новым условиям. Важно
+установить процессы для управления изменениями, такие как процедуры изменения,
+проверки и утверждения изменений, чтобы обеспечить минимальный вред для
+проекта.7. Управление рискамиРиски могут возникать в любой момент проекта, и
+команда должна быть готова к ним и уметь быстро реагировать на них. Важно
+определить риски, оценить их вероятность и влияние на проект, а также
+разработать стратегии для управления рисками.8. Обучение и развитие
+командыКоманда должна постоянно совершенствоваться и улучшать свои навыки и
+знания, чтобы соответствовать требованиям проекта. Важно проводить регулярное
+обучение, тренировки и обмен опытом, чтобы улучшить производительность команды и
+достичь поставленных целей.9. КонфликтыУправление командой также включает в себя
+управление конфликтами. Конфликты могут возникать в любой команде, и
+руководитель команды должен быть готов к их решению.Следование эффективным
+стратегиям и практикам управления командами разработки поможет обеспечить успех
+проекта и достижение поставленных целей.Важно помнить, что управление командами
+разработки — это не одноразовое мероприятие, а постоянный процесс, который
+требует постоянного внимания и улучшения.Следите за новыми постами по любимым
+темамПодпишитесь на интересующие вас теги, чтобы следить за новыми постами и
+быть в курсе событий.Организация разработкиУправление проектамиПоделиться200002
+2023-06-13 17:42:26,116 - INFO - Получен результат из очереди results: МТС9 июня в 12:100Всё о селекторах в CSS: от основ до высшего пилотажаВеб-
+разработчику, который занимается вёрсткой, необходимо знать CSS-селекторы. И
+если с простыми селекторами (по классу или id) всё понятно, то с комбинированием
+разных селекторов, псевдоклассами и псевдоэлементами иногда возникают проблемы
+даже у опытных программистов.Поэтому давайте обо всём по порядку.Что такое
+селекторы CSSСелекторы — инструкции, которые позволяют выбирать определённые
+HTML-элементы и применять к ним стили. Селектор можно использовать, чтобы
+выбрать сразу все заголовки на странице и изменить их цвет или шрифт.Например,
+такое правило CSS будет применяться ко всем элементам с классом «example» и
+устанавливать им красный цвет текста:.example {    color: red;  }Почему
+селекторы важны для создания красивых интерфейсов\u2714С их помощью можно задавать
+стили для всех элементов на странице, включая текст, изображения, кнопки,
+ссылки, таблицы, формы и т. д. Без селекторов CSS веб-страница будет выглядеть
+просто и невзрачно.\u2714Селекторы позволяют задавать стили для разных состояний
+элементов, таких как «активное», «наведение», «фокус», «выделение» и т. д. Это
+даёт возможность создавать интерактивные и привлекательные для пользователя
+элементы и делать интерфейс интуитивно понятным.\u2714Благодаря селекторам CSS можно
+создавать каскадные стили, наследовать свойства от родительских элементов и
+применять их к дочерним. Это упрощает процесс стилизации и уменьшает объём
+кода.Базовые селекторы CSSЭто основные селекторы, которые используют для выбора
+элементов на веб-странице. Они определяют, какой элемент будет стилизоваться на
+странице и какой стиль будет применён к этому элементу.Вспомним про базовые
+селекторы, чтобы потом перейти к продвинутым вариантам.Селекторы по тегуЭто
+самый простой способ выбрать все элементы на странице с определённым тегом.h1 {
+color: red;  }Этот код устанавливает красный цвет для всех элементов h1 на
+странице.Селекторы по классуКлассовый селектор позволяет выбрать все элементы, у
+которых есть определённый класс. Классы можно использовать для группировки
+элементов схожих типов..header {    font-size: 24px;    font-weight: bold;
+}Этот код устанавливает размер шрифта 24 пикселя и жирное начертание для всех
+элементов на странице с классом «header».Селекторы по IDТакой селектор позволяет
+выбрать элемент с определённым ID. Важно: идентификаторы должны быть уникальными
+на странице.#main {    width: 800px;    margin: 0 auto;  }Этот код устанавливает
+ширину 800 пикселей и центрирует элемент с ID «main» на странице.Селекторы
+атрибутовТакие селекторы позволяют выбрать элементы на основе значения
+атрибута.[data-role] {    color: blue;  }Этот код устанавливает синий цвет для
+всех элементов на странице с атрибутом «data-role».Комбинированные
+селекторыБазовые селекторы можно комбинировать между собой, чтобы выбрать
+элементы на основе нескольких условий.Например, комбинированный селектор может
+выбрать все элементы с классом «header», которые находятся внутри элемента с ID
+«main»:#main .header {    font-size: 18px;  }Этот код устанавливает размер
+шрифта 18 пикселей для всех элементов с классом «header», которые находятся
+внутри элемента с ID «main».Продвинутые селекторы в CSSПродвинутые селекторы в
+CSS — это способ выбора элементов на странице с использованием более сложных
+правил, чем простые селекторы. Они позволяют определять элементы на основе их
+отношения к другим элементам, состояниям, атрибутам и т. д.Далее — несколько
+примеров продвинутых селекторов.ПсевдоклассыЭто ключевые слова в CSS, которые
+позволяют применять стили к элементам в зависимости от их состояния или
+положения на странице. Псевдоклассы указывают после селектора элемента и
+отделяют от него двоеточием.Некоторые из наиболее часто используемых
+псевдоклассов::hover — позволяет применять стили при наведении курсора на
+элемент.a:hover {    color: red;    text-decoration: underline;  }:active —
+позволяет применять стили, когда элемент находится в активном состоянии (при
+нажатии на кнопку или ссылку).button:active {    background-color: blue;
+color: white;  }:focus — позволяет применять стили, когда элемент в фокусе
+(например, при нажатии на input).input:focus {    border: 2px solid red;
+}ПсевдоэлементыЭто специальные ключевые слова в CSS, которые позволяют добавлять
+дополнительный контент на страницу или стилизовать определённые части
+элементов.Псевдоэлементы указывают с помощью двух двоеточий (::) после селектора
+элемента.Вот некоторые из наиболее часто используемых псевдоэлементов:::before—
+позволяет добавить контент перед содержимым элемента.p::before {    content:
+"Текст до элемента: ";    font-weight: bold;  }::after— позволяет добавить
+контент после содержимого элемента.p::after {    content: " Текст после
+элемента";    font-style: italic;  }::first-line— позволяет стилизовать первую
+строку текста внутри элемента.p::first-line {    font-weight: bold;    text-
+transform: uppercase;  }Селекторы потомковТакие селекторы позволяют выбирать
+элементы, которые являются потомками других элементов. Например, следующий код
+выберет все элементы, которые являются потомками :div a {    color: blue;
+}Селекторы соседейСелекторы соседей позволяют выбирать элементы, которые идут
+непосредственно после других элементов того же уровня.Этот код выберет
+все элементы, которые идут непосредственно после элементов:h2 + p {    font-
+size: 1.2em;  }Как использовать селекторы в разных контекстахСелекторы в CSS
+нужны для выбора элементов, к которым должны быть применены стили. Их можно
+использовать в разных контекстах, таких как медиа-запросы, CSS-анимации с
+помощью @keyframes и препроцессоры, например Sass.Селекторы внутри медиа-
+запросовС помощью медиа-запросов создают страницы, адаптированные под разные
+устройства и экраны. Селекторы, используемые внутри медиа-запросов, позволяют
+задавать стили для элементов страницы в зависимости от размеров экрана,
+ориентации, разрешения и других параметров устройства.Для использования
+селекторов внутри медиа-запросов в CSS нужно определить медиа-запрос с помощью
+ключевого слова @media и задать условия, при которых будет применяться данный
+медиа-запрос. Затем внутри блока медиа-запроса можно использовать селекторы и
+задавать стили для соответствующих элементов страницы.Вот несколько примеров
+кода:/* Стили для экранов шириной 768px и выше */  @media screen and (min-width:
+768px) {    /* Селектор элемента */    h1 {      font-size: 36px;    }    /*
+Селектор класса */    .container {      max-width: 960px;    }    /* Селектор
+потомка */    ul li {      font-size: 18px;    }  }  /* Стили для экранов
+шириной меньше 768px */  @media screen and (max-width: 767px) {    /* Селектор
+элемента */    h1 {      font-size: 24px;    }    /* Селектор класса */
+.container {      max-width: 480px;    }    /* Селектор потомка */    ul li {
+font-size: 14px;    }  }В этом примере мы определили два медиа-запроса, которые
+будут применяться к элементам на экранах разных размеров. В каждом медиа-запросе
+мы использовали различные селекторы CSS для определения стилей, которые будут
+применяться к элементам на каждом экране.Селекторы c @keyframes@keyframes
+позволяет создавать плавную и красивую анимацию на странице, чтобы сайт выглядел
+дружелюбным и интерактивным.Для использования селекторов CSS с @keyframes нужно
+сначала определить ключевые кадры (keyframes) анимации с помощью правила
+@keyframes. Это правило определяет набор стилей для каждого момента времени в
+анимации.Вот пример:/* Определяем анимацию с помощью @keyframes */  @keyframes
+rotate {    0% {      transform: rotate(0);    }    100% {      transform:
+rotate(360deg);    }  }  /* Применяем анимацию к элементу */  div {
+animation-name: rotate; /* имя анимации */    animation-duration: 2s; /*
+продолжительность анимации */    animation-timing-function: linear; /* функция
+времени для плавности */    animation-iteration-count: infinite; /* количество
+повторений анимации */  }Здесь мы определили анимацию «rotate», которая
+использует селекторы 0% и 100% для определения начального и конечного состояний
+элемента в процессе анимации. Затем применили эту анимацию к элементу «div»,
+используя свойства «animation-name», «animation-duration», «animation-timing-
+function» и «animation-iteration-count».Таким образом, использование селекторов
+CSS с @keyframes позволяет создавать красивые и динамичные анимации на
+странице.Селекторы в SassSass (Syntactically Awesome Style Sheets) — язык
+препроцессора CSS, который предоставляет мощные инструменты для создания более
+гибких и удобных стилей. Одна из таких возможностей — использование селекторов в
+Sass.Селекторы в Sass позволяют обращаться к элементам и группам элементов на
+странице и изменять их стили. Пример шаблонного селектора %flex-element-center
+для центрирования элементов по вертикали и горизонтали с использованием свойств
+flexbox:// объявляем шаблонный селектор  %flex-element-center {    display:
+flex;    justify-content: center;    align-items: center;  }  // применяем
+шаблонный селектор к элементу  .my-element {    @extend %flex-element-center;
+width: 100px;    height: 100px;    background-color: #ccc;  }В Sass можно
+использовать различные типы селекторов, такие как классы, идентификаторы,
+псевдоклассы, псевдоэлементы и другие. Также можно использовать операторы
+комбинирования селекторов, такие как «потомок», «родитель», «брат» и
+т. д.Шаблонные селекторы в Sass уменьшают количество повторяющегося кода и
+позволяют сделать CSS более модульным и поддерживаемым.Селекторы и
+производительностьХотя селекторы очень мощные и гибкие, некоторые из них могут
+значительно влиять на производительность.Выборка элементов на странице с помощью
+сложных селекторов может быть затратной по времени и замедлять загрузку
+страницы. Чем сложнее селектор, тем больше времени нужно браузеру, чтобы его
+обработать, и тем дольше будет загружаться страница.Как использовать селекторы в
+больших проектахНа крупных проектах использование селекторов может стать
+проблемой для производительности и обслуживаемости кода.Хорошей идеей будет
+использовать:простые селекторы, когда это возможноклассы для стилизации
+элементов — стили для группы элементов сделают код более читаемымпсевдоэлементы
+для создания эффектов, таких как добавление стрелок, рамок и т. д.Что нужно
+избегать (по возможности):селекторы наследования — они могут ухудшить
+производительность, поскольку браузеры должны рассчитать правила стилизации для
+каждого элемента на страницеселекторы по ID — они создают сильную специфичность,
+которая затруднит изменение стилей в будущемслишком сложные селекторы — читать
+их труднее, а конфликты стилей могут возникать чаще.Ещё немного про именование
+классов и идентификаторовИменование классов и идентификаторов для селекторов CSS
+может оказать значительное влияние на удобство работы с кодом, его читаемость и
+поддержку в будущем.Вот несколько полезных советов:Используйте описательные
+имена. Имена классов и идентификаторов должны быть понятными, им необходимо
+описывать функциональность элемента или его содержимое. Например, вместо «box»
+лучше использовать «content-box» или «sidebar» вместо «div1».Используйте
+нижний_регистр_и_подчёркивания. Имя класса или идентификатора не должно
+содержать пробелов или знаков пунктуации.Избегайте слишком общих имён. Имена,
+такие как «header», «content» или «footer», могут быть переиспользованы в разных
+частях страницы. Используйте более конкретные имена, чтобы избежать
+конфликтов.Применяйте аббревиатуры с умом — там, где это действительно имеет
+смысл и они широко известны.Имена классов и идентификаторов не могут начинаться
+с чисел или знака подчёркивания.Старайтесь быть последовательными. При выборе
+имён для классов и идентификаторов лучше придерживаться одной системы
+именования. Если вы используете подчёркивание для разделения слов в одном месте,
+используйте его и в других местах.ЗаключениеСелекторы в CSS позволяют управлять
+внешним видом элементов на веб-странице, делая их более эстетичными и
+функциональными. Надеемся, что эта статья помогла вам повторить базу и научиться
+пользоваться продвинутыми селекторами.Следите за новыми постами по любимым
+темамПодпишитесь на интересующие вас теги, чтобы следить за новыми постами и
+быть в курсе событий.CSSВеб-дизайнВеб-разработкаПоделиться200002
+2023-06-13 17:42:26,123 - INFO - Получен результат из очереди results: Azat S.9 июня в 11:300ESLint-плагин для сортировки элементов кода TS/JSВсе
+любят, когда код на проекте выглядит единообразно. Но, к сожалению, чем больше
+программистов на проекте, тем сильнее стилистически отличаются файлы в нём.Эту
+проблему призваны решать линтеры, которые сигнализируют об ошибках в коде.Я
+написал свой плагин для ESLint —Perfectionist.Старший Angular-разработчик
+[МИР]МТС,Удалённо,По итогам собеседованияtproger.ruВакансии на tproger.ruОн
+призван решать проблему с сортировкой различных элементов кода, таких
+как импорты, объекты, TypeScript интерфейсы и типы, JSX-пропсы, методы классов и
+др.Плагин на выбор предоставляет три типа сортировки: по алфавиту, естественная
+сортировка (схожая с алфавитной, но ближе к людям) и сортировка по длине строки
+(на скрине ниже пример как раз сортировки по длине строки).На текущий момент
+ESLint Plugin Perfectionist насчитывает 12 правил и каждое можно настроить под
+себя.Для того, чтобы начать использовать плагин на проекте, прежде всего, нужно
+установить сам ESLint:npm install --save-dev eslintДалее, устанавливаем
+плагин:npm install --save-dev eslint-plugin-perfectionistСамый простой способ
+начать использовать плагин это импортировать один из трёх готовых конфигов в
+свой .eslintrc конфиг. Например, конфиг с естественной сортировкой:{
+"extends": [     "plugin:perfectionist/recommended-natural"   ] }Подробнее о
+других конфигурациях и настройках отдельных правил вдокументации.После чего
+линтер начнёт вам сигнализировать о куче проблем в коде, но, благо, все правила
+являются fixable. Это значит, что после установки ничего не нужно исправлять
+руками, достаточно выполнить команду eslint с флагом —fix и плагин везде всё
+поправит сам.Спасибо за внимание!GitHub — azat-io/eslint-plugin-perfectionist: \U0001f984
+ESLint plugin for sorting various data such as objects, imports, types, enums,
+JSX props, etc.github.comСледите за новыми постами по любимым темамПодпишитесь
+на интересующие вас теги, чтобы следить за новыми постами и быть в курсе
+событий.JavaScriptTypeScriptИнструментыПоделиться200002
+2023-06-13 17:42:26,125 - INFO - Получен результат из очереди results: Никита9 июня в 14:050Как использовать C# для преобразования PDF в изображения
+PNG или JPGPDF — это широко используемый формат файлов, который сохраняет
+последовательный формат и макет в различных операционных системах и устройствах.
+png — это сжатый без потерь формат изображений, который сохраняет высокое
+качество и детализацию изображения. Конвертирование файлов PDF в формат PNG
+может сделать изображения более четкими, а также облегчить их использование в
+Интернете. В этой статье описывается, как конвертировать PDF в PNG и JPG
+изображения с помощьюFree Spire.PDF for .NET.Как установить Free Spire.PDF
+for.NETСначала нам нужно открыть наш проект в Visual Studio. Затем нам нужно
+открыть менеджер пакетов NuGet и найти FreeSpire.PDF. В результатах поиска мы
+можем найти Free Spire.PDF for .NET и нажать на кнопку установки. После
+завершения установки мы можем начать использовать Free Spire for
+.NET.Примечание: Бесплатная версия поддерживает конвертирование только первых 3
+страниц документа. Если ваш документ содержит много страниц, вы можете поискать
+в NuGet для установки коммерческой версии, т.е. Spire.PDF for .NET.C# для
+преобразования изображений PDF в PNG или JPGusing Spire.Pdf; using
+Spire.Pdf.Graphics; using System; using System.Drawing; using
+System.Drawing.Imaging;  namespace PDFtoImage {     class Program     {
+static void Main(string[] args)         {             //Создайте экземпляр
+PdfDocument             PdfDocument pdf = new PdfDocument();
+//Загрузка образца документа PDF             pdf.LoadFromFile("input.pdf");
+//Просматривайте каждую страницу в PDF             for (int i = 0; i <
+pdf.Pages.Count; i++)             {                 //Преобразуйте все страницы
+в изображения и установите разрешение на дюйм для изображений
+Image image = pdf.SaveAsImage(i, PdfImageType.Bitmap, 500, 500);
+//Сохранить изображения в формате PNG в указанную папку                  String
+file = String.Format("Image\\ToImage-{0}.png", i);
+image.Save(file, ImageFormat.Png);                 //Сохранить изображения в
+формате JPG в указанную папку                  String fileJpg =
+String.Format("Image\\ToImage-{0}.jpg", i);                 image.Save(fileJpg,
+ImageFormat.Jpeg);                 }         }     } }В приведенном выше коде мы
+сначала загружаем документ PDF, а затем используемметодSaveAsImage()для
+преобразования указанной страницы PDF в изображениеBitmap. Наконец, мы сохраняем
+изображение Bitmap в формате PNG или JPG.Конвертирование в другие форматыПомимо
+преобразования PDF в Word, Free Spire.PDF for .NET также поддерживает
+преобразование PDF в другие форматы, такие как:Преобразование PDF в HTML на C#,
+VB.NETПреобразование HTML в PDF на C#, VB.NETПреобразование PDF в Word на C#,
+VB.NETКонвертирование изображений в PDF на C#, VB.NETРезюмеВ этой статье мы
+узнали, как конвертировать PDF в PNG и JPG изображения с помощью Free Spire.PDF
+for .NET. Мы также узнали о других методах конвертирования, поддерживаемых
+продуктом. Мы надеемся, что эта статья будет вам полезна.Следите за новыми
+постами по любимым темамПодпишитесь на интересующие вас теги, чтобы следить за
+новыми постами и быть в курсе событий.C#ИнструментыПоделиться200002
+2023-06-13 17:42:26,129 - INFO - Получен результат из очереди results: Газпромбанк9 июня в 16:330Динозавры и тусовщики: что делать, если они в вашей
+командеРуководителю в IT нужно не только понимать глобальные цели проекта и
+компании, но и уметь доносить их до разработчиков так, чтобы люди понимали
+важность изменений.Кирилл ГилевичСтарший технический руководитель
+разработкиДоговариваться бывает сложно. И это один из ключевых навыков
+менеджера. Сделать это проще, если условно разбить участников проекта на
+несколько типов. Я определил
+следующие:динозавры;новаторы;хитрецы;формалисты;тусовщики.Это собирательные
+образы, которые я вывел из своего опыта. Советы по общению с разными
+представителями почерпнуты из известных в комьюнити книг, в том числе одной из
+самых популярных — «Как пасти котов» Дж. Рейнвотера.ДинозаврыПривычные,
+проверенные временем практики такие люди считают более эффективными, поэтому
+склонны отвергать изменения. Договариваться с ними сложно, они, скорее, будут
+искать отговорки, чем прислушиваться к вашим доводам. Такие люди будут метаться
+между паникой «я буду не нужен» и агрессией «мой комфорт будет нарушен».Чаще
+всего консерваторы в силу стажа имеют вес в организации, поэтому попробуйте
+услышать их аргументы и после предложите альтернативы, подкрепив наглядными
+примерами. Если вы даёте человеку высказаться, в ответ он постарается понять и
+вашу позицию.Другой вариант более радикальный: действовать только через
+руководителя, либо ставить жёсткие дедлайны. Например, показываем документ и,
+если протокол разногласий не прислали к определённому сроку, документ можно
+считать автоматически подтверждённым. Запомните этот приём, он может пригодиться
+в разных ситуациях. «Мы показываем вам 5 дней, если нет правок по этой форме, то
+считается принятым». Иногда он самый действенный.Как быть с коллегой, который
+запарывает ваш проектtproger.ruНоваторыПротивоположная категория. Чаще это
+молодые ребята, которым интересно развиваться и пробовать всё новое. Для них
+новая технология — это всегда классная возможность что-то изменить.Но иногда их
+предложения могут быть радикальными, внедрить их в большой компании, особенно,
+не проверив, крайне трудно. Поэтому важно направлять новаторов и учить их
+самостоятельно оценивать идеи. Когда «новаторы» приходят к вам с очередной
+затеей, попросите их оценить её плюсы и минусы, подробно расскажите, почему и
+зачем вы используете нынешние решения, ответьте на все вопросы. И отведите к
+старшим коллегам, которые с технической позиции объяснят, почему в компании не
+используют очевидно полезную вещь.ХитрецыТакие люди признают, что изменения
+важны, но не хотят их. Имеют устоявшееся мнение об инструментах и подходах к
+работе. И если предложите что-то новое — они, скорее всего, деликатно
+откажутся.Однако договориться с ними просто. Устройте соревнование — например,
+пилотный проект или подсчёт экономического эффекта, что-то практическое, где
+можно наглядно показать плюсы инструмента.Так, «хитрецы» убедятся на своём
+примере, что ваши указания не просто дань корпоративным стандартам, а желание
+принести пользу. И с удовольствием согласятся на ваше предложение. Ведь оно
+поможет стать эффективнее.ФормалистыВыделяю в отдельную категорию юристов и
+безопасников. С ними придётся договариваться в первую очередь, потому что их
+функция — регуляторная. И если они заблокируют какое-то предложение, реализовать
+его будет не то что сложно, а просто нельзя.Здесь руководителю придётся пойти на
+уступки и принять ограничения, которые накладывают специалисты. Но в то же время
+выстроить разговор надо так, чтобы они сами подсказали, какими вариантами можно
+заменить ваше решение или как его адаптировать. Спрашивайте, советуйтесь, ищите
+компромисс, при котором риски будут допустимыми и с ними можно
+мириться.Управление командами разработки в ИТ-проектах.
+Теория.tproger.ruТусовщикиЭто ваши помощники. Они создают вокруг себя комьюнити,
+сами быстро в него вливаются, налаживают связи со многими отделами и
+специалистами из разных сфер. С их помощью ваша идея быстрее дойдёт до нужных
+вам людей. Кроме того, они приносят реальную и живую обратную связь, так как
+получают её в неформальной обстановке. Узнать таких людей просто: они первыми
+постят мемы про новую технологию в корпоративных чатах.Не обязательно
+становиться им лучшими друзьями, но налаживайте с ними отношения. Интересуйтесь
+их увлечениями, достижениями, будьте с ними на равных, говорите искренне.
+Предложите раскрыть свой коммуникативный потенциал: узнайте, вдруг им будет
+интересно организовать какое-то мероприятие для компании.Что
+почитать:«Управление персонажами в IT»Какие ошибки совершает руководитель ИТ в
+построении процессовНаладить общение с коллегами — это полдела. Нужно ещё
+провести их через весь путь: от постановки цели до финального документирования
+процесса. По дороге руководитель может совершить ряд ошибок, которые могут
+аукнуться и повлиять на эффективность проекта. Рассмотрим, что это за ошибки и
+как их исправлять.Не объясняет цельЧеловека демотивирует бессмысленность. Даже
+если задача кажется руководителю очевидной, исполнителю она может выглядеть
+ненужной.Так что если не объяснить цель, то задачу выполнят либо плохо, либо
+вообще не сделают.Что почитать:«Управление проектами с нуля»Как
+исправитьОбъясняйте выгоды и проблемы задачи. Так вы:— мотивируете сотрудника,—
+убеждаете, что задача важна для компании.Например, мы должны были подготовить
+документацию по регуляторным требованиям ЦБ. Иначе компании бы выставили
+штраф.Система так устроена, что эту документацию никто не будет применять, она
+сразу отправится пылиться на полку. Но задачу выполнить надо, и подать эту цель
+можно так: мы не создаём бесполезный артефакт, а снижаем санкционные риски для
+компании.Не уточняет задачу для каждого участника командыТак, каждый участник
+будет делать что-то своё. В итоге проект просто не соберётся, а команды
+поссорятся друг с другом.Как исправитьМаксимально декомпозируйте задачу. Не
+«сделайте такой-то функционал», а:— создайте альфу и доведите до тестовой
+среды;— раскатите в проде на 100% пользователей;— убедитесь, что UX-метрики
+соответствуют стандартам,— сократите количество багов до минимума.На каждом из
+блокирующих этапов зафиксируйте контрольные точки и сверяйте результаты с
+ответственными за задачу.Что почитать:«Настольная книга project-менеджера»Не
+собирает обратную связьЕсли игнорировать проблемы, с которыми сталкивается
+исполнитель, то либо задачу не получится эффективно решить, либо её выполнение
+будут саботировать. В итоге и конечный пользователь будет недоволен
+недоработанным продуктом.Как исправитьОбратную связь можно собирать
+централизованно. Для этого мы завели типовые формы обратной связи, куда коллеги
+пишут, какие функции или артефакты добавить или убрать, какие сложности
+возникают при согласовании, где не хватает информации.Не все сотрудники
+используют такие формы. Например, джуны, которые только разбираются, как
+устроены процессы, или выгоревшие сотрудники, которым уже всё равно, что будет с
+проектом. С ними можно проводить адресные беседы один на один.Но важно не только
+выслушать информацию, но и принять и обработать запрос. Поэтому мы формируем по
+обратной связи бэклог, который открыт для всех сотрудников. Так они могут
+убедиться, что задача не ушла в пустоту, а принята в работу.Не документирует
+процессыБез чётких регламентов границы ответственности размоются, и будет сложно
+передать работу, если вы уйдёте из компании или возьмёте отпуск.Или, например,
+при слиянии или покупке бизнеса нужно оценить, как он работает, для этого
+вызываются аудиторы. Им важны формальные утверждённые нормативы и артефакты,
+тонкости разработки им непонятны. Если документации нет, аудиторы решат, что
+бизнес не контролируется.Как исправитьПисать документацию под все этапы работы.
+Она помогает составить:инструкции для автоматизации стандартных случаев;методики
+для решения нестандартных кейсов;творческие выходы, основанные на общих
+принципах, которые можно применить в непредсказуемых ситуациях.Как управлять
+рисками проектаtproger.ruПодытожимВ крупных компаниях не обойтись без обобщений
+и чётких паттернов работы: регламентов, обратной связи, подробной декомпозиции
+задач, типизации. Поэтому на руководителя в ИТ ложится ответственность: соблюсти
+баланс между строгими правилами работы и умением найти подход к тем, кто по-
+разному реагирует на изменения.Следите за новыми постами по любимым
+темамПодпишитесь на интересующие вас теги, чтобы следить за новыми постами и
+быть в курсе событий.СоветыУправление проектамиПоделиться100001
+2023-06-13 17:42:26,132 - INFO - Получен результат из очереди results: Аня Карташова9 июня в 12:410Попрощайтесь с Spread Operator: используйте Default
+ComposerПри работе с объектами в JavaScript часто требуется установить значения
+по умолчанию для пустых свойствstrings,objects,arrays,nullили undefined.При
+работе с вложенными объектами это может стать еще сложнее. Однако с библиотекой
+default-composer эта задача становится простой и легкой.GitHub —
+aralroca/default-composer: A tiny (~300B) JavaScript library that allows you to
+set default values for nested objectsgithub.comЧто такое Default ComposerDefault
+Composer — это легкая (~300 байт) библиотека JavaScript, которая позволяет вам
+устанавливать значения по умолчанию для вложенных объектов.Библиотека заменяет
+пустые строки/массивы/объекты, нулевые или неопределенные значения в
+существующем объекте определенными значениями по умолчанию, что помогает
+упростить логику программирования и уменьшить объем кода.Преимущества перед
+Spread Operator и Object.assignХотя Spread Operator иObject.assign()также могут
+использоваться для установки значений по умолчанию, у Default Composer есть
+несколько преимуществ.Frontend-разработчик отдела облачной платформыРенессанс
+Банк,, можно удалённо,По итогам собеседованияtproger.ruВакансии на
+tproger.ruDefault Composer работает с вложенными объектами, тогда как оператор
+расширения иObject.assign()работают только с поверхностными объектами.У Default
+Composer куда более лаконичный код, чем у Spread Operator илиObject.assign(). Их
+код, напротив, слишком огромный и трудный для чтения, особенно при работе с
+вложенными объектами.Представьте, что у нас есть этот исходный объект:const
+original = {   name: "",   score: null,   address: {     street: "",     city:
+"",     state: "",     zip: "",   },   emails: [],   hobbies: [],   another:
+"anotherValue" };А это значения по умолчанию:const defaults = {   name: "John
+Doe",   score: 5,   address: {     street: "123 Main St",     city: "Anytown",
+state: "CA",     zip: "12345",   },   emails: ["john.doe@example.com"],
+hobbies: ["reading", "traveling"], };Мы хотим объединить эти объекты, заменив
+исходные значения. Итак, идея состоит в том, чтобы
+получить:[]undefined{}.console.log(results) /**  * {  * "name": "John Doe",  *
+"score": 5,  * "address": {  *   "street": "123 Main St",  *   "city":
+"Anytown",  *   "state": "CA",  *   "zip": "12345"  * },  * "emails": [  *
+"john.doe@example.com"  * ],  * "hobbies": [  *   "reading",  *   "traveling"  *
+],  * "another": "anotherValue"  **/Вероятно, со Spread Operator придется
+написать что-то подобное:const results = {   ...defaults,   ...original,   name:
+original.name || defaults.name,   score: original.score ?? defaults.score, //
+"??" beacause 0 is valid   address: {     ...defaults.address,
+...original.address,     street: original.address.street ||
+defaults.address.street,     city: original.address.city ||
+defaults.address.city,     state: original.address.state ||
+defaults.address.state,     zip: original.address.zip || defaults.address.zip,
+},   emails: original.emails.length ? original.emails : defaults.emails,
+hobbies: original.hobbies.length ? original.hobbies : defaults.hobbies, };С
+использованиемObject.assignполучится что-то такое:const results =
+Object.assign({}, defaults, original, {   name: original.name || defaults.name,
+score: original.score ?? defaults.score, // "??" beacause 0 is valid   address:
+Object.assign({}, defaults.address, original.address, {     street:
+original.address.street || defaults.address.street,     city:
+original.address.city || defaults.address.city,     state:
+original.address.state || defaults.address.state,     zip: original.address.zip
+|| defaults.address.zip,   }),   emails: original.emails.length ?
+original.emails : defaults.emails,   hobbies: original.hobbies.length ?
+original.hobbies : defaults.hobbies, });Поддерживать такой код со вложенными
+объектами будет утомительно.СdefaultComposerмы могли бы обойтись двумя строками
+кода:import defaultComposer from 'default-composer'; // 300B // ... const
+results = defaultComposer(defaults, original);Но что, если в нашем проекте есть
+специальное свойство, которое работает не так, как другие, и к нему нужно
+применить другую логику замены?Что ж, вы можете настроитьdefaultComposerпо
+своему усмотрению.import { defaultComposer, setConfig } from 'default-composer';
+setConfig({   // This function is executed for each value of each key that
+exists in    // both the original object and the defaults object.
+isDefaultableValue: (     // - key: key of original or default object     // -
+value: value in the original object     // - defaultableValue: pre-calculed
+boolean, you can use or not,      //   depending if all the rules of the
+default-composer library are correct     //   for your project or you need a
+totally different ones.     { key, value, defaultableValue }     ) => {     if
+(key === 'rare-key') {       return defaultableValue || value === 'EMPTY'     }
+return defaultableValue;   }, });ВыводыМы расмсотрели библиотеку default-
+composer как решение для установки значений по умолчанию для вложенных объектов
+в JavaScript.Библиотека легкая и предоставляет более лаконичный и удобный для
+чтения код, чем оператор расширения иObject.assign.Default Composer предлагает
+более детальный контроль над тем, для каких свойств должны быть установлены
+значения по умолчанию.В целом, default-composer — полезная библиотека, которая
+упрощает замену значений по умолчанию для вложенных объектов в
+JavaScript.Следите за новыми постами по любимым темамПодпишитесь на интересующие
+вас теги, чтобы следить за новыми постами и быть в курсе
+событий.JavaScriptБиблиотекиВеб-разработкаПоделиться100001
+2023-06-13 19:02:15,258 - INFO - Closing connection (200): Normal shutdown
+2023-06-13 19:02:15,295 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000010DFF3670D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 19:02:15,309 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000010DFF3670D0> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-13 19:02:15,320 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-13 19:02:15,326 - INFO - Aborting transport connection: state=1; <socket.socket fd=520, family=23, type=1, proto=6, laddr=('::1', 50239, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 19:02:15,337 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=520, family=23, type=1, proto=6, laddr=('::1', 50239, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 19:02:15,340 - INFO - Deactivating transport: state=1; <socket.socket fd=520, family=23, type=1, proto=6, laddr=('::1', 50239, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 19:02:15,354 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 19:02:15,358 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-13 19:02:15,380 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=520, family=23, type=1, proto=6, laddr=('::1', 50239, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-13 19:02:15,386 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')

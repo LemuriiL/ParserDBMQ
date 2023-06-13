@@ -2,6 +2,7 @@ import pika
 from bs4 import BeautifulSoup
 import requests
 import textwrap
+import logging
 
 # Настройки подключения к RabbitMQ
 credentials = pika.PlainCredentials('guest', 'guest')
@@ -12,6 +13,18 @@ channel = connection.channel()
 # Создание очередей
 channel.queue_declare(queue='tasks')
 channel.queue_declare(queue='results')
+
+# Настройки логирования
+logging.basicConfig(filename='logs.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+console_handler.setFormatter(formatter)
+
+logger = logging.getLogger()
+logger.addHandler(console_handler)
 
 
 def parse_html(url):
@@ -32,14 +45,14 @@ def parse_html(url):
         return formatted_text
 
     # Обработка сетевых ошибок (а вот это вся обработка сетевых ошибок)
-    print('Ошибка при получении страницы:', response.status_code)
+    logger.error('Ошибка при получении страницы: %s', response.status_code)
     return None
 
 
 # Обработка сообщений из очереди tasks
 def callback(ch, method, properties, body):
     link = body.decode()
-    print("Получена ссылка из очереди tasks:", link)
+    logger.info("Получена ссылка из очереди tasks: %s", link)
 
     # Парсинг полного текста новости
     parsed_text = parse_html(link)
@@ -49,13 +62,18 @@ def callback(ch, method, properties, body):
         channel.basic_publish(exchange='',
                               routing_key='results',
                               body=parsed_text)
-        print("Результаты отправлены в очередь results")
+        logger.info("Результаты отправлены в очередь results")
+    else:
+        logger.warning("Не удалось распарсить страницу: %s", link)
+
 
 channel.basic_consume(queue='tasks', on_message_callback=callback, auto_ack=True)
 
 # Запуск чтения сообщений из очереди tasks
-print('Ожидание сообщений из очереди tasks...')
-channel.start_consuming()
-
+logger.info('Ожидание сообщений из очереди tasks...')
+try:
+    channel.start_consuming()
+except KeyboardInterrupt:
+    channel.stop_consuming()
 
 connection.close()
