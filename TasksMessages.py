@@ -1,7 +1,9 @@
+from _datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 import pika
 import logging
+from elasticsearch import Elasticsearch
 
 # Настройки подключения к RabbitMQ
 credentials = pika.PlainCredentials('guest', 'guest')
@@ -27,6 +29,12 @@ console_handler.setFormatter(formatter)
 logger = logging.getLogger()
 logger.addHandler(console_handler)
 
+# Подключение к Elasticsearch
+es = Elasticsearch(
+    [{"host": "127.0.0.1", "port": 9200, "scheme": "http"}],
+    basic_auth=("elastic", "nuMZ7JRTtJpQYSORhI=n")
+)
+
 try:
     response = requests.get(url)
     response.raise_for_status()
@@ -45,10 +53,23 @@ for article in articles:
     links.append(link)
 
 for link in links:
-    # Отправка ссылок в очередь tasks
-    channel.basic_publish(exchange='',
-                          routing_key='tasks',
-                          body=link)
-    logger.info("Ссылка отправлена в очередь: %s", link)
+    # Проверка наличия ссылки в Elasticsearch
+    search_result = es.search(index='parsernews', body={"query": {"match": {"url": link}}})
+
+    if search_result['hits']['total']['value'] > 0:
+        logger.info("Информация по статье уже существует в базе данных. Ссылка: %s", link)
+    else:
+        # Добавление нового документа в Elasticsearch
+        data = {
+            "url": link,
+            "timestamp": str(datetime.now())
+        }
+        es.index(index='parsernews', body=data)
+
+        # Отправка ссылки в очередь tasks
+        channel.basic_publish(exchange='',
+                              routing_key='tasks',
+                              body=link)
+        logger.info("Ссылка добавлена в базу данных и отправлена в очередь: %s", link)
 
 connection.close()

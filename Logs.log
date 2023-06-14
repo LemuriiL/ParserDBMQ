@@ -1,0 +1,100 @@
+2023-06-14 21:28:50,603 - INFO - POST http://127.0.0.1:9200/parsenews/_search [status:404 duration:0.034s]
+2023-06-14 21:29:17,979 - INFO - POST http://127.0.0.1:9200/parsenews/_search [status:404 duration:0.014s]
+2023-06-14 21:29:46,050 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.048s]
+2023-06-14 21:30:32,586 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.025s]
+2023-06-14 21:30:33,083 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.495s]
+2023-06-14 21:30:33,084 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-14 21:30:33,095 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.010s]
+2023-06-14 21:30:33,108 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.011s]
+2023-06-14 21:30:33,108 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/zachem-tvoemu-pauku-docker/
+2023-06-14 21:30:33,119 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.010s]
+2023-06-14 21:30:33,127 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.007s]
+2023-06-14 21:30:33,127 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-pravilno-prosit-povyweniya-zarplaty-sovety-eksperta/
+2023-06-14 21:30:33,132 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.004s]
+2023-06-14 21:30:33,143 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.010s]
+2023-06-14 21:30:33,144 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/luchwie-biblioteki-dlya-animacij-na-react/
+2023-06-14 21:30:33,148 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.003s]
+2023-06-14 21:30:33,154 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.004s]
+2023-06-14 21:30:33,154 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/stack-overflow-provyol-opros-o-lyubimyh-yazykah-programmirovaniya-vyigral-rust/
+2023-06-14 21:30:33,160 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.005s]
+2023-06-14 21:30:33,165 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.004s]
+2023-06-14 21:30:33,166 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/projdi-svoj-put-v-wirinu-biblioteki-dlya-grafov-iz-indi-igry-testament/
+2023-06-14 21:30:33,174 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.007s]
+2023-06-14 21:30:33,180 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.005s]
+2023-06-14 21:30:33,181 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/radar-atlanty-kak-my-vnedrili-funkciyu-poiska-uchastnikov-biznes-kluba-po-geodannym-242272/
+2023-06-14 21:30:33,188 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.006s]
+2023-06-14 21:30:33,194 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.005s]
+2023-06-14 21:30:33,195 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-14 21:30:33,199 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.003s]
+2023-06-14 21:30:33,205 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.005s]
+2023-06-14 21:30:33,205 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-14 21:30:33,209 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.003s]
+2023-06-14 21:30:33,214 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.004s]
+2023-06-14 21:30:33,214 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-14 21:30:33,218 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.002s]
+2023-06-14 21:30:33,223 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.005s]
+2023-06-14 21:30:33,223 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-14 21:30:33,227 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.003s]
+2023-06-14 21:30:33,232 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.004s]
+2023-06-14 21:30:33,233 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-14 21:30:33,237 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.003s]
+2023-06-14 21:30:33,242 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.004s]
+2023-06-14 21:30:33,242 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-14 21:30:33,245 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.002s]
+2023-06-14 21:30:33,251 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.005s]
+2023-06-14 21:30:33,251 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-14 21:30:33,255 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.003s]
+2023-06-14 21:30:33,260 - INFO - POST http://127.0.0.1:9200/parsernews/_doc [status:201 duration:0.004s]
+2023-06-14 21:30:33,261 - INFO - Ссылка добавлена в базу данных и отправлена в очередь: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-14 21:30:33,261 - INFO - Closing connection (200): Normal shutdown
+2023-06-14 21:30:33,261 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000022A54E1D710> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-14 21:30:33,262 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000022A54E1D710> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-14 21:30:33,262 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-14 21:30:33,264 - INFO - Aborting transport connection: state=1; <socket.socket fd=560, family=23, type=1, proto=6, laddr=('::1', 65225, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:30:33,264 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=560, family=23, type=1, proto=6, laddr=('::1', 65225, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:30:33,264 - INFO - Deactivating transport: state=1; <socket.socket fd=560, family=23, type=1, proto=6, laddr=('::1', 65225, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:30:33,264 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-14 21:30:33,264 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-14 21:30:33,264 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=560, family=23, type=1, proto=6, laddr=('::1', 65225, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:30:33,265 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
+2023-06-14 21:39:46,801 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.082s]
+2023-06-14 21:39:46,801 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/unstable-diffusion-analog-midjourney-bez-cenzury/
+2023-06-14 21:39:46,818 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.015s]
+2023-06-14 21:39:46,818 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/zachem-tvoemu-pauku-docker/
+2023-06-14 21:39:46,828 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.009s]
+2023-06-14 21:39:46,829 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/kak-pravilno-prosit-povyweniya-zarplaty-sovety-eksperta/
+2023-06-14 21:39:46,837 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.007s]
+2023-06-14 21:39:46,837 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/luchwie-biblioteki-dlya-animacij-na-react/
+2023-06-14 21:39:46,849 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.011s]
+2023-06-14 21:39:46,849 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/stack-overflow-provyol-opros-o-lyubimyh-yazykah-programmirovaniya-vyigral-rust/
+2023-06-14 21:39:46,856 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.006s]
+2023-06-14 21:39:46,856 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/projdi-svoj-put-v-wirinu-biblioteki-dlya-grafov-iz-indi-igry-testament/
+2023-06-14 21:39:46,867 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.010s]
+2023-06-14 21:39:46,867 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/radar-atlanty-kak-my-vnedrili-funkciyu-poiska-uchastnikov-biznes-kluba-po-geodannym-242272/
+2023-06-14 21:39:46,876 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.008s]
+2023-06-14 21:39:46,876 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/5-razlichnyh-instrumentov-dlya-obedineniya-prilozhenij-node-js/
+2023-06-14 21:39:46,885 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.008s]
+2023-06-14 21:39:46,885 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/kak-vojti-v-ajti-i-ne-slitsya-po-doroge/
+2023-06-14 21:39:46,893 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.007s]
+2023-06-14 21:39:46,893 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/userstory-kak-sposob-poiska-owibok-v-interfejse-i-prezentaciya-dizajn-reweniya/
+2023-06-14 21:39:46,900 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.006s]
+2023-06-14 21:39:46,900 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/spacex-nanyala-14-letnego-razrabotchika-c-diplomom-bakalavra/
+2023-06-14 21:39:46,907 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.006s]
+2023-06-14 21:39:46,907 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-szhatiya-razmera-pdf-dokumentov/
+2023-06-14 21:39:46,919 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.011s]
+2023-06-14 21:39:46,919 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/kak-ispolzovat-c-dlya-preobrazovaniya-pdf-v-word/
+2023-06-14 21:39:46,925 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.005s]
+2023-06-14 21:39:46,925 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/klyuchi-api-dlya-chatgpt-byli-slity-na-reddit/
+2023-06-14 21:39:46,931 - INFO - POST http://127.0.0.1:9200/parsernews/_search [status:200 duration:0.005s]
+2023-06-14 21:39:46,931 - INFO - Информация по статье уже существует в базе данных. Ссылка: https://tproger.ru/https://tproger.ru/articles/kto-takoj-dython/
+2023-06-14 21:39:46,931 - INFO - Closing connection (200): Normal shutdown
+2023-06-14 21:39:46,931 - INFO - Closing channel (200): 'Normal shutdown' on <Channel number=1 OPEN conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000018EA9479F90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-14 21:39:46,932 - INFO - Received <Channel.CloseOk> on <Channel number=1 CLOSING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000018EA9479F90> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>>
+2023-06-14 21:39:46,932 - INFO - Closing connection (200): 'Normal shutdown'
+2023-06-14 21:39:46,933 - INFO - Aborting transport connection: state=1; <socket.socket fd=660, family=23, type=1, proto=6, laddr=('::1', 49325, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:39:46,933 - INFO - _AsyncTransportBase._initate_abort(): Initiating abrupt asynchronous transport shutdown: state=1; error=None; <socket.socket fd=660, family=23, type=1, proto=6, laddr=('::1', 49325, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:39:46,933 - INFO - Deactivating transport: state=1; <socket.socket fd=660, family=23, type=1, proto=6, laddr=('::1', 49325, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:39:46,934 - INFO - AMQP stack terminated, failed to connect, or aborted: opened=True, error-arg=None; pending-error=ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-14 21:39:46,934 - INFO - Stack terminated due to ConnectionClosedByClient: (200) 'Normal shutdown'
+2023-06-14 21:39:46,934 - INFO - Closing transport socket and unlinking: state=3; <socket.socket fd=660, family=23, type=1, proto=6, laddr=('::1', 49325, 0, 0), raddr=('::1', 5672, 0, 0)>
+2023-06-14 21:39:46,934 - INFO - User-initiated close: result=BlockingConnection__OnClosedArgs(connection=<SelectConnection CLOSED transport=None params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>, error=ConnectionClosedByClient: (200) 'Normal shutdown')
