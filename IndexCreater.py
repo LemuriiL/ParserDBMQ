@@ -37,4 +37,4 @@ index_settings = {
     }
 }
 
-es.indices.create(index="parsernews", body=index_settings)
+es.indices.create(index="parsernews", **index_settings)

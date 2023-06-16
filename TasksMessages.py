@@ -58,7 +58,8 @@ for link in links:
     link_hash = hashlib.md5(link.encode()).hexdigest()
 
     # Проверка наличия хеша ссылки в Elasticsearch
-    search_result = es.search(index='parsernews', body={"query": {"match": {"hash": link_hash}}})
+    search_result = es.search(index='parsernews', query={"match": {"hash": link_hash}})
+
 
     if search_result['hits']['total']['value'] > 0:
         logger.info("Информация по статье уже существует в базе данных. Ссылка: %s", link)
@@ -68,7 +69,7 @@ for link in links:
             "hash": link_hash,
             "timestamp": str(datetime.now())
         }
-        es.index(index='parsernews', body=index_settings)
+        es.index(index='parsernews', document=index_settings)
 
         # Отправка хеша ссылки в очередь tasks
         channel.basic_publish(exchange='',

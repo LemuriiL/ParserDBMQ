@@ -61,7 +61,8 @@ def parse_article(url):
         link_hash = hashlib.md5(url.encode()).hexdigest()
 
         # Поиск документа по хешу ссылки
-        search_result = es.search(index='parsernews', body={"query": {"match": {"hash": link_hash}}})
+        search_result = es.search(index='parsernews', query={"match": {"hash": link_hash}})
+
 
         if search_result['hits']['total']['value'] > 0:
             # Документ найден, обновление его содержимого
@@ -75,7 +76,7 @@ def parse_article(url):
                     'title': title
                 }
             }
-            es.update(index='parsernews', id=document_id, body=update_body)
+            es.update(index='parsernews', id=document_id, doc=update_body)
             logger.info("Данные обновлены в Elasticsearch: %s", update_body)
         else:
             # Документ не найден, создание нового документа

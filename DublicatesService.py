@@ -56,7 +56,7 @@ while len(documents) > 0:
         if "MinHash" not in doc_source:
             # Создание MinHash для текста статьи
             text = doc_source.get("Текст статьи", "")
-            shingles = generate_shingles(text, k=0.5)  # Генерация шинглов (указать подходящий размер шингла)
+            shingles = generate_shingles(text, k=1)  # Генерация шинглов (указать подходящий размер шингла)
             minhash = MinHash(num_perm=128)
             for shingle in shingles:
                 minhash.update(shingle.encode("utf-8"))
