@@ -1,9 +1,10 @@
-from _datetime import datetime
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 import pika
 import logging
 from elasticsearch import Elasticsearch
+import hashlib
 
 # Настройки подключения к RabbitMQ
 credentials = pika.PlainCredentials('guest', 'guest')
@@ -49,27 +50,30 @@ links = []
 
 for article in articles:
     title_element = article.find("h2", class_="article__title--icon").a
-    link = url + title_element["href"]
+    link = title_element["href"]
     links.append(link)
 
 for link in links:
-    # Проверка наличия ссылки в Elasticsearch
-    search_result = es.search(index='parsernews', body={"query": {"match": {"url": link}}})
+    # Вычисление хеша ссылки
+    link_hash = hashlib.md5(link.encode()).hexdigest()
+
+    # Проверка наличия хеша ссылки в Elasticsearch
+    search_result = es.search(index='parsernews', body={"query": {"match": {"hash": link_hash}}})
 
     if search_result['hits']['total']['value'] > 0:
         logger.info("Информация по статье уже существует в базе данных. Ссылка: %s", link)
     else:
-        # Добавление нового документа в Elasticsearch
+        # Добавление нового документа с хешем ссылки в Elasticsearch
         index_settings = {
-            "url": link,
+            "hash": link_hash,
             "timestamp": str(datetime.now())
         }
         es.index(index='parsernews', body=index_settings)
 
-        # Отправка ссылки в очередь tasks
+        # Отправка хеша ссылки в очередь tasks
         channel.basic_publish(exchange='',
                               routing_key='tasks',
                               body=link)
-        logger.info("Ссылка добавлена в базу данных и отправлена в очередь: %s", link)
+        logger.info("Хеш ссылки добавлен в базу данных и отправлен в очередь: %s", link_hash)
 
 connection.close()

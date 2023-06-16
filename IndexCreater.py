@@ -1,4 +1,5 @@
 from elasticsearch import Elasticsearch
+import hashlib
 
 # Настройки подключения к Elasticsearch
 es = Elasticsearch(
@@ -27,6 +28,9 @@ index_settings = {
                 "type": "text"
             },
             "title": {
+                "type": "text"
+            },
+            "hash": {
                 "type": "text"
             }
         }

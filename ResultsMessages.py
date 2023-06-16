@@ -4,6 +4,9 @@ from elasticsearch import Elasticsearch
 from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
+import hashlib
+
+url = "https://tproger.ru/"
 
 # Настройки подключения к RabbitMQ
 credentials = pika.PlainCredentials('guest', 'guest')
@@ -54,14 +57,18 @@ def parse_article(url):
         author = author_element.text.strip() if author_element else ''
         title = title_element.text.strip() if title_element else ''
 
-        # Поиск документа по URL
-        search_result = es.search(index='parsernews', body={"query": {"match": {"url": url}}})
+        # Вычисление хеша ссылки
+        link_hash = hashlib.md5(url.encode()).hexdigest()
+
+        # Поиск документа по хешу ссылки
+        search_result = es.search(index='parsernews', body={"query": {"match": {"hash": link_hash}}})
 
         if search_result['hits']['total']['value'] > 0:
             # Документ найден, обновление его содержимого
             document_id = search_result['hits']['hits'][0]['_id']
             update_body = {
                 'doc': {
+                    'url': url,
                     'text': full_text,
                     'date': date_element,
                     'author': author,
@@ -74,6 +81,7 @@ def parse_article(url):
             # Документ не найден, создание нового документа
             index_settings = {
                 'url': url,
+                'hash': link_hash,
                 'text': full_text,
                 'date': date_element,
                 'author': author,
@@ -92,6 +100,7 @@ def callback(ch, method, properties, body):
 
     # Парсинг статьи и обновление данных в Elasticsearch
     parse_article(link)
+    channel.basic_publish(exchange='', routing_key='results', body=link)  # Отправка ссылки в очередь results
 
 
 channel.basic_consume(queue='tasks', on_message_callback=callback, auto_ack=True)
