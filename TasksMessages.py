@@ -60,11 +60,11 @@ for link in links:
         logger.info("Информация по статье уже существует в базе данных. Ссылка: %s", link)
     else:
         # Добавление нового документа в Elasticsearch
-        data = {
+        index_settings = {
             "url": link,
             "timestamp": str(datetime.now())
         }
-        es.index(index='parsernews', body=data)
+        es.index(index='parsernews', body=index_settings)
 
         # Отправка ссылки в очередь tasks
         channel.basic_publish(exchange='',
